@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53d625a3-dbab-4f52-976f-1a28edecb8ca">
+  <producedTypes>
+    <refType typeId="366bcb13-4b75-4066-942a-233dc79b759a" valueTypeId="e1d281ff-f7f3-4aee-9488-e51e1d4640b5"/>
+    <listType typeId="da3f3a2e-0ee6-4599-94d9-bbc4854f7164" valueTypeId="6219bbee-00be-462e-9225-4f3d933382cc"/>
+    <managerType typeId="db692256-8ab0-4273-8a71-b317f4db98ac" valueTypeId="cb519625-7681-4093-a527-24fa23057669"/>
+  </producedTypes>
+  <name>ВидыВозникновенияБрака</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды возникновения брака</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="62f038b5-935d-444e-a8d9-4830bb3618bd">
+    <name>Внутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="64af40e3-a3db-44d6-81e6-da5bed92365c">
+    <name>Внешний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

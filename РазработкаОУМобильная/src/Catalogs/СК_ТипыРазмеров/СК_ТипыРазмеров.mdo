@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96d71f4b-a604-43cb-bdd8-19fe362dfaab">
+  <producedTypes>
+    <objectType typeId="1bcd18ba-a240-4aa2-ad37-5d8cc3b99a48" valueTypeId="0ad01150-df97-4ba9-a5d9-579f26fc8fab"/>
+    <refType typeId="8e1bc2df-0abd-4e63-8fce-b39dc6e1b62f" valueTypeId="a1a7f35b-dff5-46bd-977c-40ea9064796c"/>
+    <selectionType typeId="88914542-8313-4e36-a92f-82d19a5b7550" valueTypeId="05215d52-3a9a-4c69-8845-7d202cbced9b"/>
+    <listType typeId="ddd669ba-34f6-4e9a-94d7-0e9eb2c25bbb" valueTypeId="b06e6b34-510c-4488-af39-3862578ed1fc"/>
+    <managerType typeId="fbba436f-c2ca-4c18-adbc-93923b667e91" valueTypeId="753040df-4de2-4be0-945e-4b9862c2014a"/>
+  </producedTypes>
+  <name>СК_ТипыРазмеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>_Типы размеров</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.СК_ТипыРазмеров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СК_ТипыРазмеров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6b33e99e-0509-4c73-81e9-980baca05dc2">
+    <name>ГруппаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа продукции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СК_ГруппыПродукции</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="49d125b2-9ae4-4fd3-8bde-dae57599ed25">
+    <name>ФормаСечения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сечения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СК_ФормыСечения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="099157f1-c992-4efe-9386-eb05977a76b6">
+    <name>Мерность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мерность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СК_Мерность</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0a050153-5828-4ff4-b2d0-887bd5300156">
+    <name>ФормулаРасчетаВеса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула расчета веса</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="44651135-05b8-4a46-b1ff-1e4fcba925fc">
+    <name>ВидРазмераОпределяющийВес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид размера определяющий вес</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СвойстваОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="af7d3b50-9317-432c-9d6a-d620a0137058">
+    <producedTypes>
+      <objectType typeId="5a95d6c9-d80b-45dc-b56d-5b5958c6a571" valueTypeId="75facd70-3046-4e02-be3d-e513105f1e02"/>
+      <rowType typeId="a4481042-e989-4d81-a45a-7dda0dc80257" valueTypeId="a6ef3848-5946-4ee2-b6c5-4fd52456bde7"/>
+    </producedTypes>
+    <name>ВидыРазмеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды размеров</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3551ecf5-ac93-4c11-935e-cc019f2aa3c5">
+      <name>ВидРазмера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид размера</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0792127f-4ae6-4b9d-ae48-31d35adf54a8">
+      <name>ТипЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="182c7b85-09d3-4288-b90a-2a04945ac2b7">
+      <name>ОтРодителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>От родителя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="63257ebd-ddf8-4491-934f-fc7d3da33e2a">
+      <name>Соединитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Соединитель перед размером</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СК_СоединителиРазмеров</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b1e8e96f-4bc5-4dd5-97e2-913b9104ee37">
+      <name>ПорядковыйНомерРазмера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядковый номер размера</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ea6e26fa-02b5-45ed-8bf1-eb08e9a27d4a">
+      <name>ПорядковыйНомерРазмераВОтчетах</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядковый номер размера в отчетах</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bd198449-3918-4320-ab3a-f7b2751cf983">
+      <name>Дополнительный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дополнительный</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6b9bc3ee-8470-4e86-9771-4b7b0e525af6">
+      <name>ФормулаРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формула расчета</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e54f8cb-665f-450e-8b1f-eda57b50b061">
+      <name>НеОсновной</name>
+      <synonym>
+        <key>ru</key>
+        <value>Не основной</value>
+      </synonym>
+      <comment>Не указывается в представлении значения размера</comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4a44e467-80a3-4c3b-add4-e4e2938762c2">
+    <producedTypes>
+      <objectType typeId="5b8182ea-bd3e-4a67-b2d8-c53d22d53bb1" valueTypeId="539856f1-4339-4201-874b-6120b1e55b68"/>
+      <rowType typeId="1d390be3-8238-4b5d-8bae-f6dfde9cdf61" valueTypeId="50973752-6e12-4b73-90de-98a823adb812"/>
+    </producedTypes>
+    <name>Стандарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарты</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="034c3c48-f851-4179-8709-3ba799384895">
+      <name>Стандарт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стандарт</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СК_НДНаПродукцию</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b22a4d75-adbf-49ee-865e-19c2d8effd75">
+  <producedTypes>
+    <refType typeId="3befeae1-03db-4187-9ad0-ce79ecfe4ed6" valueTypeId="6bc31ec8-6ffb-4c4e-bf13-78476adba6f6"/>
+    <listType typeId="984e1961-57d1-44c7-af79-de5b5d978799" valueTypeId="daf3dc51-7002-451f-87a8-8a4239afd809"/>
+    <managerType typeId="d275cbdc-8487-4cce-a62b-2ac951cee9f6" valueTypeId="4691ca2b-1051-4473-90e2-fbe5637cc228"/>
+  </producedTypes>
+  <name>МенюОписьМеталлаСортировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Меню опись металла сортировка</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8de5bb4e-f13b-4afd-85cb-6dcfeccd32cd" thisNode="26adf67f-a7b1-4105-9604-c2e13ef26790">
+  <producedTypes>
+    <objectType typeId="cb97cbcd-5e0e-4ba1-80ba-ea698661ff90" valueTypeId="bafefc2e-2163-45c4-a3f2-74c6653e7c7f"/>
+    <refType typeId="56f5f4d1-83d4-4000-8b92-82880d1b5b31" valueTypeId="c5930230-28a7-4198-9830-c3b68b642c9c"/>
+    <selectionType typeId="2d978b8f-80d0-471c-81e9-3261940da279" valueTypeId="12b0131c-5f4e-4504-acf1-1fc078270708"/>
+    <listType typeId="c9aa6858-290c-46aa-a911-5d36b50f09b0" valueTypeId="b5a9e1d5-65a9-4eb7-b95a-a94518072b9b"/>
+    <managerType typeId="f1738a3b-6cc5-4820-80c3-a87d4451cde4" valueTypeId="1a92df03-f10e-49cb-9ee7-a22644720564"/>
+  </producedTypes>
+  <name>УГМК_ОбменСМобильнымиУстройствами</name>
+  <synonym>
+    <key>ru</key>
+    <value>УГМК обмен с мобильными устройствами</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.УГМК_ОбменСМобильнымиУстройствами.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.УГМК_ОбменСМобильнымиУстройствами.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>ThisNode</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ReceivedNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>SentNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>40</descriptionLength>
+  <content>
+    <mdObject>Document.УГМК_ДокументФакт</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.УГМК_ДокументФактТест</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СерииНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УГМК_ТипыТехнологическихОснасток</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_ГруппыПродукции</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УГМК_МаркаСплаваПроизводство</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_ФормыСечения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_МаркиСплавов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_Состояния</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УГМК_СостоянияЗаказа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_ВидыСплавов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СотрудникиОрганизаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РабочиеМеста</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_Мерность</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ХарактеристикиНоменклатуры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УГМК_ЗначенияРазмеров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_ПродукцияОЦМ</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВнутреннийЗаказ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Склады</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗначенияСвойствОбъектов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_СоединителиРазмеров</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПодразделенияОрганизаций</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Подразделения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_ПроизводственныеГруппы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УГМК_ГруппыПродукции</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УГМК_ТехнологическаяОснастка</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.НоменклатурныеГруппы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Организации</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УГМК_ТараТехнологическая</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЕдиницыИзмерения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РабочиеЦентры</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.tb_Производитель</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_МетодыИзготовления</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ДокументТест</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.КлассификаторЕдиницИзмерения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УГМК_РежимыРаботыРабочихЦентров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СК_ОсобыеУсловия</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

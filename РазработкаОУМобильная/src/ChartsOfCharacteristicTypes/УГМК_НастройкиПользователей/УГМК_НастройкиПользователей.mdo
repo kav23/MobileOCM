@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afc2925d-3624-4b36-9740-e5e9574c666e">
+  <producedTypes>
+    <objectType typeId="b8dcca3d-aff6-48e3-9c59-8c008bf6526d" valueTypeId="aa2a2291-3206-4ae3-bd2f-8f71709e8b8b"/>
+    <refType typeId="36c30357-1309-4f1e-8d86-f07b8d6b8124" valueTypeId="6bb42771-de18-46c7-846a-393c8b99a245"/>
+    <selectionType typeId="f902c165-b567-449e-a4c7-eb5cc0af768d" valueTypeId="e81d7795-47ae-475d-9669-e74bb018b247"/>
+    <listType typeId="8dad51df-188e-4ad4-b587-adae85506ef7" valueTypeId="370375fd-047d-4fba-b52e-350dd24079e0"/>
+    <managerType typeId="e0d17b3c-3bb6-4346-8ed4-543b3a49f4ef" valueTypeId="a4329b11-ee23-4a5d-8b3b-d9ee4f88ded9"/>
+    <containerType typeId="a215f5ce-9499-4c4c-bf04-69207d043e4a" valueTypeId="69805a52-22b7-4d50-b842-456b0d3553cb"/>
+  </producedTypes>
+  <name>УГМК_НастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователей (УГМК)</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>ChartOfCharacteristicTypes.УГМК_НастройкиПользователей.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.УГМК_НастройкиПользователей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ValueType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.УГМК_НастройкиПользователей</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Подразделения</types>
+    <types>CatalogRef.ГруппыДоступностиСкладов</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.СотрудникиОрганизаций</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.УГМК_ВидДокумента</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>254</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4d8d2d08-1651-4904-a4e0-5f6a3e117bbb">
+      <name>ДругиеНастройки</name>
+      <description>Другие настройки</description>
+      <isFolder>true</isFolder>
+      <code>08.00</code>
+      <type/>
+      <content id="a78f824a-7e5d-4bf3-96af-51b19902a570">
+        <name>ВидДокумента</name>
+        <description>Вид документа</description>
+        <code>08.16</code>
+        <type>
+          <types>CatalogRef.УГМК_ВидДокумента</types>
+        </type>
+      </content>
+      <content id="d7b8187e-01cc-448b-be77-0fd5c0b4261c">
+        <name>ВыборПодбораВДокументах</name>
+        <description>Выбор подбора в документах</description>
+        <code>08.01</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="38c9fe9a-8139-48b3-8b4c-e5bfb5949422">
+        <name>ВыполнятьОтложенноеПроведение</name>
+        <description>Выполнять отложенное проведение</description>
+        <code>08.14</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="739e5270-85be-4bc9-9849-a25239670f10">
+        <name>ИспользоватьФормуДокумента_ЗаказПокупателя</name>
+        <description>Использовать форму документа (ЗаказПокупателя)</description>
+        <code>08.34</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>85</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="0f7d6789-7563-4c0b-8028-a5fed120cb7f">
+        <name>ИспользоватьФормуДокумента_ОтчетПроизводстваЗаСмену</name>
+        <description>Использовать форму документа (ОтчетПроизводстваЗаСмену)</description>
+        <code>08.02</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>85</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="f4b5d0c8-b968-4f1c-b37c-e2ed6d176b23">
+        <name>ИспользоватьФормуДокумента_РеализацияТоваровУслуг</name>
+        <description>Использовать форму документа (РеализацияТоваровУслуг)</description>
+        <code>08.12</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>85</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="e4d98425-36c3-4963-9052-441eab449211">
+        <name>МожетВыбиратьВидФормы_ЗаказПокупателя</name>
+        <description>Может выбирать вид формы Заказ покупателя</description>
+        <code>08.50</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="569a09d6-4eb4-424b-a223-77903899dddf">
+        <name>МожетВыбиратьВидФормы_ОтчетПроизводстваЗаСмену</name>
+        <description>Может выбирать вид формы ОПЗС</description>
+        <code>08.29</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="e6d43076-7de2-420a-9498-d6fd6f8ca7d8">
+        <name>ИспользоватьФормуДокумента_ОтчетПроизводстваЗаСменуВсегда</name>
+        <description>Не использовать анализ формы ОПЗС</description>
+        <code>08.28</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="57ab109a-69a8-41ac-adb0-1c6b12c01875">
+        <name>ОтменитьКонтрольЗакрытияСмен</name>
+        <description>Отменить контроль закрытия смен</description>
+        <code>08.26</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="6df9dfcb-2529-48c7-aaf5-9f1fe507ba39">
+        <name>ПерепроведениеТолькоПервойРеализацииИзДокументовЦепочки</name>
+        <description>Перепроводить только первую реализацию из документов цепочки</description>
+        <code>08.13</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="3165fd6d-db38-4c87-855b-da2b54656bdf">
+        <name>ПодразделениеДляВыбора</name>
+        <description>Подразделение для выбора (применяется при отличии от основного структурного)</description>
+        <code>08.51</code>
+        <type>
+          <types>CatalogRef.Подразделения</types>
+        </type>
+      </content>
+      <content id="192e4201-be54-4e2d-989b-8a6f3fe38182">
+        <name>ПриВыбореДоговораНЕУстанавливатьФильтрПоЦФО</name>
+        <description>При выборе договора НЕ устанавливать фильтр по ЦФО</description>
+        <code>08.24</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="a5677986-3c71-4a9f-80dc-ed22b9a8ca72">
+        <name>РазрешеноРедактироватьПерерасчетКГ</name>
+        <description>Редактирование справочников коэффициент перерасчета в КГ</description>
+        <code>08.30</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="38563ca2-bbf5-43a4-8d38-4d368af4f3dd">
+      <name>ЗаполнениеПолейДокумента</name>
+      <description>Заполнение полей документа</description>
+      <isFolder>true</isFolder>
+      <code>06.00</code>
+      <type/>
+      <content id="603669e5-1087-4f45-9493-fb8a117ea882">
+        <name>АктПроизводственныхУслуг_РазрешитьУстанавливатьКонтрольКоличества</name>
+        <description>Акт производственных услуг - разрешить устанавливать контроль количества</description>
+        <code>08.25</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="95cb781e-3f9b-4e8f-ad34-9ac5d0d1b288">
+        <name>ПрефиксДокументовПоУмолчанию</name>
+        <description>Префикс документов по умолчанию</description>
+        <code>08.22</code>
+        <type>
+          <types>CatalogRef.УГМК_НастройкиПользователей</types>
+          <types>Boolean</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>CatalogRef.ГруппыДоступностиСкладов</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>CatalogRef.Склады</types>
+          <types>CatalogRef.УГМК_ВидДокумента</types>
+          <numberQualifiers>
+            <precision>10</precision>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+      <content id="6a96bc96-ec3f-486e-bdd8-f84ae9847d58">
+        <name>РазрешитьДокументыРеализацииБезПрефиксов</name>
+        <description>Разрешить документы реализации без префиксов</description>
+        <code>08.23</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="99cf9f59-64e9-4404-8cb2-12e272388351">
+        <name>СценарийБюджетирования</name>
+        <description>Сценарий бюджетирования</description>
+        <code>07.05</code>
+        <type>
+          <types>CatalogRef.УГМК_НастройкиПользователей</types>
+          <types>Boolean</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>CatalogRef.ГруппыДоступностиСкладов</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>CatalogRef.Склады</types>
+          <types>CatalogRef.УГМК_ВидДокумента</types>
+          <numberQualifiers>
+            <precision>10</precision>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+      <content id="0daee100-5f6d-4db3-b297-0789769db190">
+        <name>СценарийМесячногоБюджетаЦФО</name>
+        <description>Сценарий бюджетирования для ЦФО</description>
+        <code>08.27</code>
+        <type>
+          <types>CatalogRef.УГМК_НастройкиПользователей</types>
+          <types>Boolean</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>CatalogRef.ГруппыДоступностиСкладов</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>CatalogRef.Склады</types>
+          <types>CatalogRef.УГМК_ВидДокумента</types>
+          <numberQualifiers>
+            <precision>10</precision>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="f84a3205-acf3-400f-ac94-f405111b0c75">
+      <name>НастройкаДоступности</name>
+      <description>Настройка доступности</description>
+      <isFolder>true</isFolder>
+      <code>00001</code>
+      <type/>
+      <content id="b4b3863f-003f-48cf-90b5-c72fdc46e9dd">
+        <name>ПолныеПраваНаОбменСПодразделениями</name>
+        <description>Полные права на обмен с подразделениями</description>
+        <code>00014</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="bf95bfec-9e3f-452d-a590-5e738f1e488a">
+        <name>РазрешеноРедактированиеГруппыМеталлопрокат</name>
+        <description>Разрешено редактирование группы металлопрокат</description>
+        <code>00002</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="ae76878a-6d73-48ad-9bfe-0e9f057ce66b">
+        <name>РедактированиеАктаСверокБух</name>
+        <description>Редактирование акта сверок бух</description>
+        <code>00009</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="8fefb66d-8e84-44b2-8622-98041649b1ab">
+        <name>РедактированиеВидовПараметровВыпускаПродукции</name>
+        <description>Редактирование видов параметров выпуска продукции</description>
+        <code>00005</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="042bd214-252f-4ad6-81b3-a3e5c6070049">
+        <name>РедактированиеLME</name>
+        <description>Редактирование данных по LME</description>
+        <code>00024</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="4c081e2b-46bc-41d7-9919-ed7805f1a946">
+        <name>РедактированиеМоментовОплат</name>
+        <description>Редактирование моментов оплат</description>
+        <code>00016</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="61488862-518e-435f-ab71-9b7b03bbe4ad">
+        <name>РедактированиеЦенПоСпискуКонтрагентов</name>
+        <description>Редактирование справочника списка контрагентов по которым разрешено править цены в заказе</description>
+        <code>00022</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="9860fd9b-0152-4a75-9195-8cf1b8327d7d">
+        <name>РедактированиеУсловияПоставки</name>
+        <description>Редактирование справочника условия поставки</description>
+        <code>00018</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="eb89df9a-7562-4a8b-8130-dfcbd0bfc6c4">
+        <name>РедактированиеОбработки</name>
+        <description>Редактирование стоимости обработки</description>
+        <code>00025</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="be432da3-59dd-4303-b9b0-6f3100ff3944">
+        <name>РедактированиеТипыСкидокНаценок</name>
+        <description>Редактирование типов скидок и наценок</description>
+        <code>00019</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="373dcfcc-fef9-42e1-8ec0-8f939ec325e6">
+        <name>РедактированиеЦенРаспоряжения</name>
+        <description>Редактирование цен в распоряжении (для Майданпека)</description>
+        <code>00026</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="2fa178cf-7e0c-4d1e-91f1-be384ff465fc">
+      <name>НастройкаПользователя</name>
+      <description>Настройка пользователя</description>
+      <isFolder>true</isFolder>
+      <code>00012</code>
+      <type/>
+      <content id="af51a200-328b-404d-82e8-49e94f3c7888">
+        <name>ОсновноеСтруктурноеПодразделение</name>
+        <description>Основное структурное подразделение</description>
+        <code>08.35</code>
+        <type>
+          <types>CatalogRef.Подразделения</types>
+        </type>
+      </content>
+      <content id="ddee9dec-aab6-4013-9208-57778375fbea">
+        <name>ПрефиксБазы</name>
+        <description>Префикс базы</description>
+        <code>08.36</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>1</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="31fb365f-01aa-47a6-b9f8-9f9d5d4a4512">
+        <name>СтандартныйСрокИзготовления</name>
+        <description>Стандартный срок изготовления</description>
+        <code>00011</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>3</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="9363a2c7-2198-435e-8e86-3d3448483811">
+        <name>СценарийПланирования</name>
+        <description>Сценарий планирования</description>
+        <code>00013</code>
+        <type>
+          <types>CatalogRef.УГМК_НастройкиПользователей</types>
+          <types>Boolean</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>CatalogRef.ГруппыДоступностиСкладов</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>CatalogRef.Склады</types>
+          <types>CatalogRef.УГМК_ВидДокумента</types>
+          <numberQualifiers>
+            <precision>10</precision>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+      <content id="59b8331d-1c27-4b31-b80e-cf4fe689d3db">
+        <name>ФильтроватьДоговорыПоПодразделениям</name>
+        <description>Фильтровать договоры по подразделениям</description>
+        <code>00010</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="4ed3bae3-43db-4f6b-b45d-c4997a48c313">
+      <name>НастройкиДоступа</name>
+      <description>Настройки доступа</description>
+      <isFolder>true</isFolder>
+      <code>05.00</code>
+      <type/>
+      <content id="fb5f87d0-2f1c-4563-97b7-40316ff6be86">
+        <name>БухгалтерскийУчет</name>
+        <description>Бухгалтерский учет</description>
+        <isFolder>true</isFolder>
+        <code>08.10</code>
+        <type/>
+        <content id="4d9afe65-aba7-4c05-a0eb-b7fdc69e4237">
+          <name>РазрешитьРегистрироватьСчетаФактуры</name>
+          <description>Разрешить регистрировать счета фактуры</description>
+          <code>08.11</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="7e479386-3577-4259-9080-ad13a4a69401">
+          <name>РегистрироватьДокументыВБУАвтоматически</name>
+          <description>Регистрировать документы в бух. учете автоматически</description>
+          <code>08.15</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="ad94abbb-f4a6-4ccf-9cf4-89acf59961e1">
+        <name>ВводКонтрагентовИДоговоров</name>
+        <description>Ввод контрагентов</description>
+        <isFolder>true</isFolder>
+        <code>08.05</code>
+        <type/>
+        <content id="07db4588-ed72-4832-9e1b-624ed0afe0bd">
+          <name>РазрешитьВводДоговораБезУказанияЦФО</name>
+          <description>Разрешить ввод договора без указания ЦФО</description>
+          <code>08.08</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="b9f92659-ef90-4c37-9835-5e8a4ff7574b">
+          <name>РазрешитьВводитьДоговораОтИмениВсехПодразделений</name>
+          <description>Разрешить вводить договора от имени всех подразделений</description>
+          <code>08.03</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="a4e5778b-fb67-4aa1-a2ff-0bde6c5a93e6">
+          <name>РазрешитьЗаписьДоговораСИмеющимсяДокументами</name>
+          <description>Разрешить запись договора с имеющимся документами</description>
+          <code>08.09</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="9d0a6736-65a7-40e0-b4e9-7268989c1b44">
+          <name>РазрешитьРедактированиеДанныхДоговоров</name>
+          <description>Разрешить редактирование данных договоров</description>
+          <code>08.06</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="635eaf67-226a-4b63-b8cc-925ab64288bb">
+          <name>РазрешитьРедактированиеРеглДанныхДоговоров</name>
+          <description>Разрешить редактирование регл данных договоров</description>
+          <code>08.07</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="1aa446dc-320e-4611-a3c9-b48a52dfe4dd">
+        <name>ЗаказыНаПроизводство</name>
+        <description>Заказы на производство</description>
+        <isFolder>true</isFolder>
+        <code>08.53</code>
+        <type/>
+        <content id="411e9bfe-2d69-47d2-ae4c-da06a8feafc5">
+          <name>ПроведениеКорректировокЗаказаНаПроизводство</name>
+          <description>Проведение корректировок заказа на производство</description>
+          <code>08.54</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="fde3d1b8-d4c8-4c06-8080-06db0c933359">
+        <name>ЗаказыПокупателей</name>
+        <description>Заказы покупателей</description>
+        <isFolder>true</isFolder>
+        <code>08.39</code>
+        <type/>
+        <content id="4ff371d3-944d-47e2-815c-0a28c150d7ac">
+          <name>ИзменениеДопТребованийНаЗаводе</name>
+          <description>Изменение доп требований на заводе</description>
+          <code>08.41</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="66e69e08-b729-40ec-bbd9-4b8b8bb913d3">
+          <name>ИзменениеСрокаИзготовления</name>
+          <description>Изменение срока изготовления</description>
+          <code>08.40</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="b48dace0-9bb2-49ea-a344-71d24acfff9a">
+          <name>КорректировкаЗаказаПокупателя</name>
+          <description>Корректировка заказа покупателя</description>
+          <code>00006</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="46ab1e67-34ef-431d-87db-3b50e656f346">
+          <name>ОтключитьДопКонтрольЗаказов</name>
+          <description>Отключить доп контроль заказов</description>
+          <code>00004</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="31a7a60a-869c-42f6-afd9-2cf2b92b944a">
+          <name>ОтключитьЗапретЗаданияВПроизводствоИОтгрузкиИзНаличия</name>
+          <description>Отключить запрет задания в производство и отгрузки из наличия</description>
+          <code>08.52</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="d80b74d5-f1d9-449a-b012-312dd84af385">
+          <name>ОтключитьПроверкуСогласованийПоЗаказуПокупателя</name>
+          <description>Отключить проверку согласований по заказу покупателя</description>
+          <code>08.43</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="75660479-3110-40a8-b795-b36bdb617794">
+          <name>РазрешитьЗаданиеВПроизводствоПродукцииПриСвободномНаличии</name>
+          <description>Разрешить задание в производство продукции при свободном наличии</description>
+          <code>08.45</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1743e348-3887-4a41-aa8b-7d56b6fb3f2c">
+          <name>СогласованиеЦенЗаказа</name>
+          <description>Согласование цен заказа</description>
+          <code>08.44</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="dd8b4e35-de9a-480a-a842-78a39e981639">
+        <name>ЗарплатаИКадры</name>
+        <description>Зарплата и кадры</description>
+        <isFolder>true</isFolder>
+        <code>08.47</code>
+        <type/>
+        <content id="3b88f5b8-ab24-418b-942f-ce58f563d65d">
+          <name>РазрешитьРедактированиеШтатногоРасписания</name>
+          <description>Разрешить редактирование штатного расписания</description>
+          <code>08.48</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="d67953a4-9999-4a2f-b5cb-26477d999d44">
+        <name>РеализацияПоЦепочке</name>
+        <description>Реализация по цепочке</description>
+        <isFolder>true</isFolder>
+        <code>08.37</code>
+        <type/>
+        <content id="9d475ecd-3fa6-4e1b-be74-29a65f3a0748">
+          <name>ЗаписьВторичныхДокументов</name>
+          <description>Запись вторичных документов</description>
+          <code>08.38</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="1da668d3-5f17-4bad-96de-3205aba1199d">
+          <name>ПолныйДоступКДокументамЦепочки</name>
+          <description>Полный доступ к документам цепочки</description>
+          <code>00003</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="349a0280-7847-4430-b5f4-251fa39a4d60">
+        <name>РедактированиеПодразделений</name>
+        <description>Редактирование подразделений</description>
+        <isFolder>true</isFolder>
+        <code>08.18</code>
+        <type/>
+        <content id="7f174bdc-7273-4bd6-a134-bd58be7b5087">
+          <name>РазрешитьРедактированиеПодразделений</name>
+          <description>Разрешить редактирование подразделений (и подразделений организаций)</description>
+          <code>08.19</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="839ff573-432e-4e64-8c21-6b8a4ca431ff">
+        <name>ФинансовыйУчет</name>
+        <description>Финансовый учет</description>
+        <isFolder>true</isFolder>
+        <code>07.04</code>
+        <type/>
+        <content id="2a0226ee-4265-45fb-bf83-bbfa8367d662">
+          <name>ДоступенВыборРасчетногоСчетаВЗаявке</name>
+          <description>Доступен выбор расчетного счета в заявке</description>
+          <code>08.32</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="15d3c2cc-bf0f-4d99-b230-fb40215f1130">
+          <name>ИмеетПравоПроводитьЗаявки</name>
+          <description>Имеет право проводить заявки</description>
+          <code>07.02</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="b4f352f0-d4ad-42ef-8ed4-a5dfbd05d628">
+          <name>НЕДоступноИзменениеСтатусовЗаявокДС</name>
+          <description>НЕДоступно изменение статусов заявок ДС</description>
+          <code>08.33</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="0f2d7d00-493c-44bc-83da-dd0338374230">
+          <name>ПросмотрЗаявокПоВсемЦФО</name>
+          <description>Просмотр заявок по всем ЦФО</description>
+          <code>07.03</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+        <content id="ff4537b6-c8a7-4593-8ea5-1956ea7c5348">
+          <name>РазрешитьМенятьПодразделениеВФинДокументах</name>
+          <description>Разрешить менять подразделение в финансовых документах</description>
+          <code>06.02</code>
+          <type>
+            <types>Boolean</types>
+          </type>
+        </content>
+      </content>
+      <content id="df83475b-b6af-4ffd-8f53-24a64e937356">
+        <name>ИгнорироватьПровереноЭкспертом</name>
+        <description>Игнорировать &quot;Проверено экспертом&quot;</description>
+        <code>08.42</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="df2dee42-1fc7-497e-8ae0-39d5080dfc90">
+        <name>РазрешитьДвижениеТовараПоЗакрытымСкладам</name>
+        <description>Разрешить движение товара по закрытым складам</description>
+        <code>08.46</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="592e483f-7edd-4e2c-9a60-dc5cec70120c">
+        <name>РазрешитьИзменениеДокументовЭДО</name>
+        <description>Разрешить изменение документов ЭДО</description>
+        <code>08.49</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="b7b8fa9a-fcdf-436e-8e12-87c597a54c1e">
+        <name>РазрешитьИзменениеНеключевыхРеквизитовДокументовЭДО</name>
+        <description>Разрешить изменение неключевых реквизитов документов ЭДО</description>
+        <code>08.55</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="2816ceea-f98a-45e8-81cc-cdbb000c7392">
+        <name>РазрешитьМенятьОтветственного</name>
+        <description>Разрешить менять ответственного</description>
+        <code>05.01</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="65f5202e-7c2f-42ab-ab76-0185ccd59732">
+        <name>РедактированиеНСИЗатрат</name>
+        <description>Редактирование НСИ Затрат (Статьи затрат и пр.)</description>
+        <code>08.31</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="5aa0b6e6-2dc9-476d-9705-e8e7eb6d54d5">
+      <name>НастройкиЗапуска</name>
+      <description>Настройки запуска</description>
+      <isFolder>true</isFolder>
+      <code>03.00</code>
+      <type/>
+      <content id="e3635ce7-dbc7-4e56-82bd-83541b731ee6">
+        <name>ТиповойИнтерфейс_ЗавершениеРаботыСистемыПослеЗапуска</name>
+        <description>Завершать работу системы после запуска </description>
+        <code>04.02</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="ff8c621e-b294-4178-aa08-e50f7b5ddcc4">
+        <name>ИспользоватьФормуПриОткрытии</name>
+        <description>Использовать обработку при открытии</description>
+        <code>08.21</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>85</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="31d09f6c-334f-4b5f-b156-4627b6ccfabd">
+      <name>ТиповойИнтерфейс</name>
+      <description>Типовой интерфейс</description>
+      <isFolder>true</isFolder>
+      <code>01.00</code>
+      <type/>
+      <content id="6f9a413d-e5ea-4f58-8f82-02f7450e7a33">
+        <name>ТиповойИнтерфейс_ВызватьПриОткрытии</name>
+        <description>Вызвать при открытии типовой интерфейс</description>
+        <code>01.01</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="07498eca-bc7a-4995-83ae-70a72df31cd4">
+        <name>ТиповойИнтерфейс_ГоловнойЭлемент</name>
+        <description>Головной элемент типового интерфейса</description>
+        <code>01.02</code>
+        <type>
+          <types>CatalogRef.УГМК_НастройкиПользователей</types>
+          <types>Boolean</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>CatalogRef.ГруппыДоступностиСкладов</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>CatalogRef.Склады</types>
+          <types>CatalogRef.УГМК_ВидДокумента</types>
+          <numberQualifiers>
+            <precision>10</precision>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+      <content id="608a557f-3365-4a97-a902-611c4063b23b">
+        <name>ТиповойИнтерфейс_МаксСписокДействий</name>
+        <description>Макс. длина списка действий</description>
+        <code>01.03</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>2</precision>
+          </numberQualifiers>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

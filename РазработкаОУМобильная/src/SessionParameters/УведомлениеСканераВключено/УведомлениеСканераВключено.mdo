@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7132ca1-8d6f-4cd3-856b-288748e4644a">
+  <name>УведомлениеСканераВключено</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление сканера включено</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47a3f6cb-b5cc-4148-8014-e5539c8b722a">
+  <name>Драйвер1СПринтерЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С: Принтер чеков</value>
+  </synonym>
+  <comment></comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

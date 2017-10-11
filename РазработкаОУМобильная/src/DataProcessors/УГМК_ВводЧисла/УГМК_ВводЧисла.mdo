@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ac32756-4fb9-4d25-83ad-4252f1698fc9">
+  <producedTypes>
+    <objectType typeId="f2f3c447-2280-47d9-ac39-f23704f4de93" valueTypeId="71b6a1bf-321f-4641-bb35-6727c02b4d36"/>
+    <managerType typeId="fe4d3eeb-a14f-4bc7-9c9d-9dc3fe9aac44" valueTypeId="e2ecbe0b-4214-44e5-a246-9bc7e8acc37c"/>
+  </producedTypes>
+  <name>УГМК_ВводЧисла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УГМК_ВводЧисла.Form.Форма</defaultForm>
+  <attributes uuid="64440178-ee9f-49af-9692-fe7e7ceccb89">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6fa55d04-c631-4415-a526-edd606b156ca">
+    <name>Точность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d2894954-cdbf-481a-8522-6ea031abc806">
+    <name>ИмяРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя реквизита</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6dccb8c3-ce78-417b-a8b5-36489d274fcc">
+    <name>ЭтоСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это строка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="36a6b0da-ac9a-4929-9d4c-320b88edb480">
+    <name>РежимПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим пароля</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a3b52b96-9678-4b68-add7-c4a7ac2e045b">
+    <name>ЗначениеСтр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение стр</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="407372c6-13ad-4fad-a8b7-e98ba0dbd327">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ba601455-a6c7-465c-901a-dcd1226922de">
+    <name>ФормаМобильная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма мобильная</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

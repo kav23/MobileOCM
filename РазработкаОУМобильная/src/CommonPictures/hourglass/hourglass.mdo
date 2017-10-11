@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="018790bc-0edf-4a7b-b3cd-27f4c0778407">
+  <name>hourglass</name>
+  <synonym>
+    <key>ru</key>
+    <value>Hourglass</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

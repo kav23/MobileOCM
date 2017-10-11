@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="def0a4f8-e66c-466e-a559-b0e343e71a70">
+  <producedTypes>
+    <managerType typeId="4d164a6a-b686-4e7a-8a64-284e3dac1969" valueTypeId="46d6828a-c409-4c59-b8f4-63a0ecab24f6"/>
+    <valueManagerType typeId="702bb9fe-90e7-4af5-bcd3-3dbcb06da205" valueTypeId="35f739d1-4379-4a9d-95cd-7727a0c794cd"/>
+  </producedTypes>
+  <name>РедактироватьКоличествоПослеСканирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактировать количество после сканирования</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

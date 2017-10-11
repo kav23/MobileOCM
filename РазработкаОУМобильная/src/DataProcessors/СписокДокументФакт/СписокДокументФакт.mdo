@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a496fee-38d8-4ce4-a210-1942bc026876">
+  <producedTypes>
+    <objectType typeId="b7ee2073-98d8-427b-bc4c-f6446221562e" valueTypeId="4c093393-b0cf-45bb-bfc3-ff0304f0a812"/>
+    <managerType typeId="48792ceb-cf1e-4134-9a0b-ffbd7cbb3555" valueTypeId="6f4ec823-aa15-4709-92c2-08c45cdf4676"/>
+  </producedTypes>
+  <name>СписокДокументФакт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список документов &quot;Опись металлов&quot; для редактирования</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СписокДокументФакт.Form.СписокДокументов</defaultForm>
+  <forms uuid="9fd7e665-b267-421d-ac0e-c530d41de05d">
+    <name>СписокДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список документов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

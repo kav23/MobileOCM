@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="626f7976-686a-4aaf-bafc-b2365e067899">
+  <producedTypes>
+    <objectType typeId="86253402-da97-4a17-a839-283e4b69a0ad" valueTypeId="76907720-0d9f-45ae-ac8b-ea428a402bad"/>
+    <refType typeId="f9f246a3-f63e-4357-aff6-2e1a5f66026c" valueTypeId="84f49490-e10d-4dd9-b625-95fed37cb3ee"/>
+    <selectionType typeId="1329993a-2f73-4c43-bfad-700d8db73a2f" valueTypeId="3cfd064b-cbcc-4abb-87ce-d6c73c97cf19"/>
+    <listType typeId="77f47c56-056a-48b5-ae94-24d6e5589f11" valueTypeId="f977a2b9-34c5-43d7-8a61-e2ef2af371b9"/>
+    <managerType typeId="16a9cfee-2dcc-4c73-a40a-4fb96f081ced" valueTypeId="e3ec6988-8b0b-49be-be26-ef45c97626f7"/>
+    <containerType typeId="f04256af-e4b4-4d0a-8a65-baa878d4c6de" valueTypeId="17e72b92-8700-406c-916d-72ac4063fbfb"/>
+  </producedTypes>
+  <name>СвойстваОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства объектов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ValueType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСвойствОбъектов</characteristicExtValues>
+  <type>
+    <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+    <types>CatalogRef.СерииНоменклатуры</types>
+    <types>CatalogRef.СК_МаркиСплавов</types>
+    <types>CatalogRef.НоменклатурныеГруппы</types>
+    <types>CatalogRef.УГМК_АвтотранспортВнутренний</types>
+    <types>CatalogRef.СК_ВидыСплавов</types>
+    <types>CatalogRef.УГМК_РежимыРаботыРабочихЦентров</types>
+    <types>CatalogRef.ПодразделенияОрганизаций</types>
+    <types>CatalogRef.СК_ФормыСечения</types>
+    <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    <types>CatalogRef.Проекты</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.СК_ПродукцияОЦМ</types>
+    <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+    <types>CatalogRef.УГМК_МаркаСплаваПроизводство</types>
+    <types>CatalogRef.СК_Состояния</types>
+    <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    <types>Boolean</types>
+    <types>CatalogRef.УГМК_ЗначенияРазмеров</types>
+    <types>CatalogRef.Подразделения</types>
+    <types>CatalogRef.СК_Мерность</types>
+    <types>CatalogRef.СК_НДНаПродукцию</types>
+    <types>CatalogRef.СК_МетодыИзготовления</types>
+    <types>CatalogRef.СК_ОсобыеУсловия</types>
+    <types>CatalogRef.СК_ТипыРазмеров</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>String</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.СК_ТочностьИзготовления</types>
+    <types>Date</types>
+    <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    <types>Number</types>
+    <types>CatalogRef.УГМК_Комиссии</types>
+    <types>CatalogRef.СК_ГруппыПродукции</types>
+    <types>DocumentRef.УГМК_Регистратор</types>
+    <types>CatalogRef.Качество</types>
+    <types>CatalogRef.СотрудникиОрганизаций</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.tb_Производитель</types>
+    <types>CatalogRef.РабочиеЦентры</types>
+    <types>CatalogRef.Склады</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a6b15f4b-8af3-434d-b3ec-f0b44fc189a4">
+      <name>МетодыПроведенияИсследований</name>
+      <description>Методы проведения исследований</description>
+      <code>00000000004</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+    <items id="f76505a5-b625-4afa-9ae3-8f0418fab60a">
+      <name>НазначениеАнализа</name>
+      <description>Назначение анализа</description>
+      <code>00000000003</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+    <items id="db9c642d-5ad5-40f8-8d37-5c8dc0af4d9e">
+      <name>ТипАнализа</name>
+      <description>Тип анализа</description>
+      <code>00000000002</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+    <items id="daf9cfed-1706-4ad7-be78-f495f5bb1d33">
+      <name>ТипыТары</name>
+      <description>Типы тары</description>
+      <code>00000000005</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+    <items id="f51808b7-6656-4caf-9b0f-bea8ee4feddb">
+      <name>ТорговаяМарка</name>
+      <description>Торговая марка</description>
+      <code>00000000001</code>
+      <type>
+        <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f93330e3-b2a5-48f8-bbef-bb659e1c05c3">
+    <name>НазначениеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение свойства</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.НазначенияСвойствКатегорийОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4aec4e88-e140-4a6d-95d3-366c46075489">
+    <name>УГМК_Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d2297b1e-a371-4d55-8622-afece480a0a3">
+    <name>УГМК_Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7cfbaf10-7a4f-4aaf-8e20-39e82002d162">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2e108c39-f6c5-49a2-8157-3fe6e8d3ec33">
+    <name>УГМК_ДопКонтроль</name>
+    <synonym>
+      <key>ru</key>
+      <value>(УГМК) Доп. контроль</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

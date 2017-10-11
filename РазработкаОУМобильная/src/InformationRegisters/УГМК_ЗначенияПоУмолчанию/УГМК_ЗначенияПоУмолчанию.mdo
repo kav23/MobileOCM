@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="351aba6f-697a-461d-b1e4-47150c7c6792">
+  <producedTypes>
+    <selectionType typeId="fa78ffdf-c07f-4847-a4c7-72e2ccedc29b" valueTypeId="183261ca-028f-411b-996d-4dc20a57310c"/>
+    <listType typeId="3f08580d-485a-48b9-a2a2-f5606206569e" valueTypeId="e2557f29-4995-4a60-9c32-060d1f0e5834"/>
+    <managerType typeId="5f2f0cbe-b5b8-4ddd-a41c-c27764505eeb" valueTypeId="112facd6-3625-45d1-9397-4342fcb2d63b"/>
+    <recordSetType typeId="43295a1e-0008-4d6b-9ee0-e4cf6ba5537f" valueTypeId="9a22241f-a120-41f2-a8dc-dc1d4290e548"/>
+    <recordKeyType typeId="6da218ae-21ad-49a4-91ec-4b82ee35ca73" valueTypeId="e0236835-4e7b-4650-bb90-ebb76b7856f0"/>
+    <recordType typeId="bd2a3548-2731-4d04-b398-e23c95c83545" valueTypeId="2e818682-ef7f-4a76-87a9-cb7113be7c1f"/>
+    <recordManagerType typeId="58ef3f8f-3a21-4b95-bd26-2a153c40ace2" valueTypeId="38794679-93d3-42e6-89ea-92fc079a4112"/>
+  </producedTypes>
+  <name>УГМК_ЗначенияПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения по умолчанию (УГМК)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cd9777fa-07ac-47ae-a72f-f02f640994d7">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e477e6c2-0fa9-41a6-9139-2d374a8bbf64">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2d11fcd7-474f-4bf7-b981-4b592c2ee861">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6ecef37c-17ff-45fd-8f77-2a8e7a369dd2">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6c2032b9-602b-4a5f-a82d-6c92c1a8ddfd">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

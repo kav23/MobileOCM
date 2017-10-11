@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0cdc115-1445-4089-9524-4ec8bd5445ac">
+  <producedTypes>
+    <managerType typeId="b98401bf-2c5e-4fb7-98e3-89c2491b6fce" valueTypeId="5c149ad6-5793-4e71-bbea-2819b43f071d"/>
+    <valueManagerType typeId="daec00c7-71af-4850-8d66-72d4f3a2878a" valueTypeId="467f974e-7278-4f59-a0cd-84f9aa15d294"/>
+  </producedTypes>
+  <name>ID</name>
+  <synonym>
+    <key>ru</key>
+    <value>ID</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>UUID</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

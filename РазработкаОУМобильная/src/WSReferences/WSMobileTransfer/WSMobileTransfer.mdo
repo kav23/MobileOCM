@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0d7034a-2e93-4f66-a828-f3566b2223d0">
+  <producedTypes>
+    <managerType typeId="bb396140-4438-4acc-80a6-e9714600b7d5" valueTypeId="379df945-ca8c-4098-8676-54746e163d73"/>
+  </producedTypes>
+  <name>WSMobileTransfer</name>
+  <synonym>
+    <key>ru</key>
+    <value>WSMobile transfer</value>
+  </synonym>
+  <comment></comment>
+  <locationURL>http://10.35.4.172:4443/tou_kav/ws/MobileTransfer.1cws?wsdl</locationURL>
+</mdclass:WSReference>

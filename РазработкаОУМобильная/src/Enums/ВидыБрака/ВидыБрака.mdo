@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e14e0642-7d39-4b79-97d2-76e0e2026c72">
+  <producedTypes>
+    <refType typeId="18a625c4-1585-4a43-856b-4f1b8d566eab" valueTypeId="42b34cf0-577d-420e-9e7a-1bbfdb61bebf"/>
+    <listType typeId="5292bd95-23ba-4ed2-a88f-91dedd80d9ba" valueTypeId="e3988c1f-0f81-4428-acb5-3e303381edfd"/>
+    <managerType typeId="e94f6b05-a335-4760-b8e8-27ba691f790e" valueTypeId="2c88e187-69b0-4173-b909-949e29768afb"/>
+  </producedTypes>
+  <name>ВидыБрака</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды брака</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="53aee7f4-a135-40c0-bc06-0e044e92b9c3">
+    <name>Исправимый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправимый брак</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b81af48e-3a20-460b-84ff-d731f8cfcc3d">
+    <name>НеИсправимый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неисправимый брак</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b6665a91-9f57-40a7-9912-ea7a3d8f7feb">
+    <name>Пересдача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль качества (пересдача)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

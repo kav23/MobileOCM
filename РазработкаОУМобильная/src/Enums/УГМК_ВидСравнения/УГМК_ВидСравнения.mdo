@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9e69305-b942-47a5-b21e-32cb4224466e">
+  <producedTypes>
+    <refType typeId="90a2cf21-442c-4144-b9f7-61b37d8e9aa0" valueTypeId="c73410da-43ea-4304-914f-bb4516094556"/>
+    <listType typeId="3f7c2da7-0028-47fb-89c1-09995c0f8059" valueTypeId="eb52ba96-4f71-4be2-8e98-b0b10092f16a"/>
+    <managerType typeId="6301fd7e-b310-4637-a6fd-6ec89bc9bfd3" valueTypeId="35cfbea3-5def-4f16-8718-c21f9c24ea13"/>
+  </producedTypes>
+  <name>УГМК_ВидСравнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>(УГМК) Вид сравнения</value>
+  </synonym>
+  <comment>Вид сравнения для сертификата номенклатуры</comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9d11240d-3652-464b-ac86-e612ab706a26">
+    <name>НеБолее</name>
+    <synonym>
+      <key>ru</key>
+      <value>не более</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4019defb-447f-4005-92fc-721bb9ac9e59">
+    <name>НеМенее</name>
+    <synonym>
+      <key>ru</key>
+      <value>не менее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="890a1204-f046-4472-aaa4-128aa6fd0497">
+    <name>Равно</name>
+    <synonym>
+      <key>ru</key>
+      <value>равно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

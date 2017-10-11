@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c4fed9c-3c79-4400-a57b-1eeaac3055e7">
+  <producedTypes>
+    <refType typeId="895c4fc5-a7ee-4856-9444-378b98bfce60" valueTypeId="2fa8f436-b982-4a1c-aa01-193bdf0a0fff"/>
+    <listType typeId="2c10fbc9-1906-4277-a311-b84ee2e5fc5f" valueTypeId="f2ff1200-8845-4c41-a5af-3ee5071121a8"/>
+    <managerType typeId="fc1d46b7-e89f-4981-bf33-62c3cc0cba5b" valueTypeId="b37111a1-2fe4-4136-8374-09dc4f582254"/>
+  </producedTypes>
+  <name>ВидыОперацийЗаказыНаПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций заказы на производство</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="72a75168-5fc8-4e0a-a7fa-d8df2a53426a">
+    <name>ЗаказНаПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на производство</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e76de8b6-cda2-4dd9-b2fd-583e4fe074a4">
+    <name>ЗаказНаБрак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на брак</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="8e4187b7-204f-41d6-8cc9-15037e9a27da">
+    <name>РемонтОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонт ОС</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

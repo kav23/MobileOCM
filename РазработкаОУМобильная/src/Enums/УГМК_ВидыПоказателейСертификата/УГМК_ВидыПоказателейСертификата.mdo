@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea626dc9-af42-4a54-806d-cbb975726447">
+  <producedTypes>
+    <refType typeId="38136c7a-39cb-4781-b52c-8b86fa624ffb" valueTypeId="c18e102d-a229-4704-a9c4-35a754fa7f1e"/>
+    <listType typeId="07dadc31-8747-4fc2-af9b-ce256c225d87" valueTypeId="2e734f5b-940e-4fe2-a3e5-27209a6c9320"/>
+    <managerType typeId="08598c94-d1ff-4ffa-b685-7473187e6836" valueTypeId="be17c840-0342-4497-9196-1a7fc88f9724"/>
+  </producedTypes>
+  <name>УГМК_ВидыПоказателейСертификата</name>
+  <synonym>
+    <key>ru</key>
+    <value>УГМК виды показателей сертификата</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8588a38d-4561-42b1-aae7-9adc49bad0db">
+    <name>Свойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f5b60433-08a3-4d82-884a-49a4e501c148">
+    <name>Испытания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Испытания</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1f74121c-2ba3-49c7-9d5c-894a8ed4df8a">
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <comment>Химический состав</comment>
+  </enumValues>
+  <enumValues uuid="caec5f52-b0ad-40fb-8a9f-1e74be7d41bd">
+    <name>ФактическийСостав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактический состав</value>
+    </synonym>
+    <comment>Фактический состав испытаний</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02b392cc-1e58-411b-9142-c52111c9932c">
+  <producedTypes>
+    <refType typeId="d79f9cd8-a0b2-416a-b1f9-b04fbe862bb9" valueTypeId="88732665-856a-43eb-a303-d3999ba4fa38"/>
+    <listType typeId="7c43f827-acb0-44da-ba92-1243e76272bf" valueTypeId="4cd4f7b2-8c66-4548-b919-bfa54d014902"/>
+    <managerType typeId="d43ab9c7-bfaa-4110-ab86-5d555643dc34" valueTypeId="f17fdeca-1909-49bc-b533-45f910b190c7"/>
+  </producedTypes>
+  <name>УГМК_СостояниеИзготовления</name>
+  <synonym>
+    <key>ru</key>
+    <value>(УГМК) Состояние изготовления</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e8984030-d6a6-4847-a8b0-5187c6022790">
+    <name>Изготовление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изготовление</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f4f853f2-f876-4ae0-a7c8-632974038411">
+    <name>ЗаменаБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена брака</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="68140e25-137a-4c53-a000-2234c029043c">
+    <name>Кооперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кооперация</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9a8c7a12-99dd-4e65-a02c-70b4f2d8e84a">
+    <name>Перевес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевес</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="727c5cb6-7b3c-44dc-8def-44c0b545c731">
+    <name>Инвентаризация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентаризация</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

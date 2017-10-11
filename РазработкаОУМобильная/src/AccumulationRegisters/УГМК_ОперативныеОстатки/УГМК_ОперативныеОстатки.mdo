@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb8b3364-ad4c-425e-888d-553bde4ef4b0">
+  <producedTypes>
+    <selectionType typeId="3fb50e39-20a7-4a71-901d-331a23244632" valueTypeId="acc7893c-f7d5-4f17-8ae8-d5912c6c471d"/>
+    <listType typeId="2d8f43fa-c929-4892-8d41-b23366500d21" valueTypeId="27d95d67-13ea-4c9c-9325-5a9a6439715b"/>
+    <managerType typeId="ee8f1418-ce4a-4c6e-bab3-853e818b54b9" valueTypeId="f9b87460-8e14-4507-afd4-f76430b701f2"/>
+    <recordSetType typeId="b0a8e020-2b4c-4a3a-a9b9-533d42487871" valueTypeId="d5920442-a9c5-42d7-a981-94d812bcba9f"/>
+    <recordKeyType typeId="62ce227e-7b65-4df2-b69b-3bb129d84556" valueTypeId="17744303-b901-4f90-a0ca-ae3e526ab702"/>
+    <recordType typeId="9ed9346f-e7c7-45e1-ab62-d52895c7f49e" valueTypeId="4aea6bf3-9d47-4ca8-b0dc-c4c0d5091530"/>
+  </producedTypes>
+  <name>УГМК_ОперативныеОстатки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперативные остатки (УГМК)</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>RecordType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ff1b26be-7ee3-47c7-a34c-9c66e6bfeada">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e796a2af-d2f8-4bcb-818a-469c90bb0dc6">
+    <name>Количество1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во доп.</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="5ff10a0d-3798-429a-8fbc-234b88b24b84">
+    <name>КоличествоМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мест</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="a5483893-6a2a-4e67-9cf7-acf9a11bd26d">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.РабочиеЦентры</types>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ffabebfd-5173-4f6f-b9c3-3a21838375d4">
+    <name>РабочийЦентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.РабочиеЦентры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b8d819e6-00d9-4bea-a121-56ad3eddf940">
+    <name>РежимРабочегоЦентра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим оборудования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_РежимыРаботыРабочихЦентров</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="69ada029-267e-4cbe-9bf8-381fe05db28e">
+    <name>КорГруппаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор. группа продукции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СК_ГруппыПродукции</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2306ed91-89d5-4552-b2f9-13ee91ac61f0">
+    <name>КорНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор. номенклатура</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.СК_МаркиСплавов</types>
+      <types>CatalogRef.СК_ПродукцияОЦМ</types>
+      <types>CatalogRef.УГМК_МаркаСплаваПроизводство</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a7a188bf-6675-4a1b-b593-e4c7e245a07c">
+    <name>КорХарактеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор. характеристика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      <types>CatalogRef.УГМК_ЗначенияРазмеров</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="742c4f4f-c959-4ccd-a9a1-963b59f27cc0">
+    <name>КорСостояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор. состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СК_Состояния</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="dccc14e6-4c37-4c6c-9f67-dda69321ef7c">
+    <name>КорЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор. заказ</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6813da0d-ccd9-4fae-92c5-561234c86454">
+    <name>КорЗаказВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор. заказ выпуска</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3c59a963-c03d-4cba-a398-b9fc58c12234">
+    <name>КорПаспортПартии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор. паспорт партии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+      <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+      <types>BusinessProcessRef.УГМК_Плавка</types>
+      <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ca94d698-2677-4590-bcfd-9dc2d3633426">
+    <name>Серия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5e6566dc-fa79-4a9e-befd-b7f7203c613c">
+    <name>Качество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Качество</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7d572acd-b7e2-4687-afc3-a03907fe1a5b">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1ddb1609-d031-430f-b08e-b15bc09b0995">
+    <name>ЗаказВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ выпуска</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ea46c4d1-fb39-423a-bece-3bbd3b472328">
+    <name>ТехнологическаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологическая операция</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ТехнологическиеОперации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e9d255bb-7a37-4fd6-bad5-af42d9a75d67">
+    <name>ВариантТехнологическойОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант технологической операции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_ВариантыТехнологическихОпераций</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7460429d-c36c-458f-8d3c-84ee55552653">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="38b6eb1d-886c-478f-9703-057272f1a407">
+    <name>Коэффициент1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэфф. доп</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e0d79e74-a16d-40e7-bb2c-7c33c79fbb85">
+    <name>КоличествоТара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество тара</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="3ac1126e-602f-4296-98ad-b3f7e977c147">
+    <name>КлючСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ связи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="17c294bb-6de6-48da-b321-80d9fdfb44bd">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6510b60c-b8be-4634-9ed6-e7f3af4106e8">
+    <name>КорПодразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор. подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fe8f4334-0a4e-410d-82c1-d398c6b3c750">
+    <name>КорКлючСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор ключ связи</value>
+    </synonym>
+    <synonym>
+      <key>sr</key>
+      <value>Кор ключ связи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d8df566f-10b8-4d57-8ae4-c1f07cd72e01">
+    <name>Оснастка1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оснастка1</value>
+    </synonym>
+    <synonym>
+      <key>sr</key>
+      <value>Оснастка1</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_ТехнологическаяОснастка</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="d9a4ae66-0d3d-46d6-850a-6af15f813c30">
+    <name>Оснастка2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оснастка2</value>
+    </synonym>
+    <synonym>
+      <key>sr</key>
+      <value>Оснастка2</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_ТехнологическаяОснастка</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f4ae1bde-1862-429c-8b32-2545675eac0d">
+    <name>Оснастка3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оснастка3</value>
+    </synonym>
+    <synonym>
+      <key>sr</key>
+      <value>Оснастка3</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_ТехнологическаяОснастка</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="82754c94-8b80-4e87-ad1d-dee38271b6d2">
+    <name>МестоУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место учета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.РабочиеЦентры</types>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5fd80e29-3773-42d3-a034-f226f6ea8878">
+    <name>МаркаСплава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка сплава</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СК_МаркиСплавов</types>
+      <types>CatalogRef.УГМК_МаркаСплаваПроизводство</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="dcbf5608-c121-40f3-8313-04d1f86c58a3">
+    <name>ГруппаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа продукции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СК_ГруппыПродукции</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c7363433-ccde-421b-9944-68fa5e487e20">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.СК_МаркиСплавов</types>
+      <types>CatalogRef.СК_ПродукцияОЦМ</types>
+      <types>CatalogRef.УГМК_МаркаСплаваПроизводство</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="24e12ae7-a694-4bbe-804a-2074fddbc3e3">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      <types>CatalogRef.УГМК_ЗначенияРазмеров</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fa3203a4-4b07-4526-9774-9bca2130b07a">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СК_Состояния</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9ca429f0-7ca9-431f-8bdf-166edb424572">
+    <name>ПаспортПартии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт партии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+      <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+      <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+      <types>BusinessProcessRef.УГМК_Плавка</types>
+      <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3c39820d-dc3d-4675-99a1-c97ceb23564b">
+    <name>Тара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тара</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_ТараТехнологическая</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

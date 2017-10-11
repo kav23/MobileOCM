@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f74e2a88-4c7a-4427-9450-1e4b8cfba979">
+  <producedTypes>
+    <objectType typeId="843cd861-beb2-44e4-a29a-2a753b969140" valueTypeId="da76a906-f050-4b79-b956-dab21ffb5768"/>
+    <refType typeId="1dc6b7ae-ab17-4bfe-abbd-8f2cac546ed5" valueTypeId="f41c14e3-ad55-45cc-ae03-9487d882f447"/>
+    <selectionType typeId="bf47de88-4561-4ba3-b68c-8387f7d3fdb7" valueTypeId="4ed67d57-7e37-4acc-8a4c-f9b3116f8425"/>
+    <listType typeId="e790e557-dd8e-4c6c-970a-4fe6f48a5b57" valueTypeId="32c0c4d5-3dcd-4366-9ba3-662a46bce532"/>
+    <managerType typeId="b6b97df4-81d3-4c10-b229-87a9498243a6" valueTypeId="aab66d9f-224a-4d81-90d3-11ac45b98d50"/>
+  </producedTypes>
+  <name>ДокументТест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ тест</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДокументТест.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5128ca3f-eb35-4aae-82e2-584399c6266d">
+    <name>Строка1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка1</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4bc58701-6e21-49bf-be76-12d605468713">
+    <name>ГруппаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа продукции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СК_ГруппыПродукции</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="02bdb289-61e3-4558-82d2-ad1091bcd167">
+    <name>Смена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Смены</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Document>

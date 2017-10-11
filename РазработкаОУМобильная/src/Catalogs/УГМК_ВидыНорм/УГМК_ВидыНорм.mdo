@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f03c30a6-ff52-4506-8ed5-1599196c5512">
+  <producedTypes>
+    <objectType typeId="266cbf7c-3428-4ce2-bc7f-06f3611941fe" valueTypeId="eb865245-2b9f-43ae-a5ee-b171ade5fc41"/>
+    <refType typeId="1058c9e6-9035-4538-bc1a-0c9054355606" valueTypeId="82afe0d5-9ed1-4e5c-8a21-472bbbae14e3"/>
+    <selectionType typeId="4708bec4-d5ad-4fee-8dc1-1207fca40f0a" valueTypeId="f88f53e1-0e07-4161-bdd4-7316918a5815"/>
+    <listType typeId="ab2d2178-7d53-4f62-a13f-76b98682a5bc" valueTypeId="fa371547-61fa-4992-9616-0d764734ef4d"/>
+    <managerType typeId="ab56cd35-8905-4db8-ada9-2c83ad41229d" valueTypeId="8455ae98-c797-4446-ab81-7455a709ca43"/>
+  </producedTypes>
+  <name>УГМК_ВидыНорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды норм (УГМК)</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.УГМК_ВидыНорм.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УГМК_ВидыНорм.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>85</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f284687d-a203-4df5-be6e-b5570902631d">
+      <name>НормативНЗПОбрабатывающийЦех</name>
+      <description>Норматив НЗП Обрабатывающий цех</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="0de74f71-dcd4-4410-b3f4-32d7da079dfd">
+      <name>НормативНЗППалвильныйЦех</name>
+      <description>Норматив НЗП Палвильный цех</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="26cfc6c0-d0dc-4586-9810-5d767ec05571">
+      <name>НормативОтходовКорольки</name>
+      <description>Норматив отходов Корольки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="a3db52ba-2399-4983-a9f6-b01d373f24e9">
+      <name>НормативОтходовОбрабатывающийЦех</name>
+      <description>Норматив отходов Обрабатывающий цех</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="90428d71-3a58-486a-b727-d66db4f9436f">
+      <name>НормативОтходовПалвильныйЦех</name>
+      <description>Норматив отходов Палвильный цех</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="bbf0f649-fe6b-4010-8b11-c6b0e22a4f43">
+      <name>НормативОтходовШлакНаОтгрузку</name>
+      <description>Норматив отходов Шлак на отгрузку</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

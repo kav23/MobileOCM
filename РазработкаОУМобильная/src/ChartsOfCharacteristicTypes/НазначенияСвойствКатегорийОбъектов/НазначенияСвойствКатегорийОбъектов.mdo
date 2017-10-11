@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bd4b678-2942-4a03-9715-e2479b750662">
+  <producedTypes>
+    <objectType typeId="184ab044-ac28-4784-8ab7-787c2199962d" valueTypeId="36ffb13f-638d-441c-8792-90818855c5a6"/>
+    <refType typeId="4adc31c8-6208-42b4-9363-d4ceb099f857" valueTypeId="36a61c17-c271-4e9c-92f2-d52c1d54679d"/>
+    <selectionType typeId="a6cfca08-16b5-440c-b928-4540c298806e" valueTypeId="a1d5b623-dce1-41b8-a303-4bbad2a37c94"/>
+    <listType typeId="75237b85-1001-4978-863d-d67c580412e4" valueTypeId="06ebb286-2c09-4442-b630-2b13d4192bb8"/>
+    <managerType typeId="bb6a594c-ed0c-45b0-90f9-3b8b6d2665df" valueTypeId="b0e79a70-fa07-4dd1-b926-6ef5ec202acb"/>
+    <containerType typeId="acffbf6c-3968-4f0f-97c3-e6019c0534ce" valueTypeId="b3a3df48-4d89-426c-a22a-d649a1957d88"/>
+  </producedTypes>
+  <name>НазначенияСвойствКатегорийОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначения свойств категорий объектов</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <inputByString>ChartOfCharacteristicTypes.НазначенияСвойствКатегорийОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.НазначенияСвойствКатегорийОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ValueType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+    <types>CatalogRef.СерииНоменклатуры</types>
+    <types>CatalogRef.СК_МаркиСплавов</types>
+    <types>CatalogRef.НоменклатурныеГруппы</types>
+    <types>CatalogRef.ПодразделенияОрганизаций</types>
+    <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+    <types>CatalogRef.Проекты</types>
+    <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+    <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+    <types>DocumentRef.ЗаказНаПроизводство</types>
+    <types>DocumentRef.ЗаказПокупателя</types>
+    <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+    <types>CatalogRef.Подразделения</types>
+    <types>DocumentRef.ВнутреннийЗаказ</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>String</types>
+    <types>CatalogRef.Организации</types>
+    <types>DocumentRef.СертификацияНоменклатуры</types>
+    <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+    <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+    <types>BusinessProcessRef.УГМК_Плавка</types>
+    <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+    <types>CatalogRef.СотрудникиОрганизаций</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+    <types>CatalogRef.РабочиеЦентры</types>
+    <types>CatalogRef.Склады</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e8feef85-4598-456e-ab2e-76ec98ba7f2b">
+      <name>Справочники</name>
+      <description>Справочники</description>
+      <isFolder>true</isFolder>
+      <code>00000000001</code>
+      <type/>
+      <content id="78816019-3da3-4a4a-9c46-d2aff806a897">
+        <name>Справочник_ХарактеристикиНоменклатуры</name>
+        <description>Справочник  &quot;Характеристики номенклатуры&quot;</description>
+        <code>00000000103</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+      <content id="f7d5b5fe-e446-4b8a-9fb1-4338765fb0b7">
+        <name>Справочник_БанковскиеСчета</name>
+        <description>Справочник &quot;Банковские счета&quot;</description>
+        <code>00000000123</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="c1a9a967-ebc4-4a8d-8456-a80eb7e8098e">
+        <name>Справочник_ДоговорыКонтрагентов</name>
+        <description>Справочник &quot;Договоры контрагентов&quot;</description>
+        <code>00000000110</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="42893654-d0df-4c8f-b9ad-9f4791e5ab88">
+        <name>Справочник_ДолжностиОрганизаций</name>
+        <description>Справочник &quot;Должности организаций&quot;</description>
+        <code>00000000115</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="8132dcbf-ed2c-4d79-9bb2-e0c8ae2c0d4c">
+        <name>Справочник_КонтактныеЛицаКонтрагентов</name>
+        <description>Справочник &quot;Контактные лица контрагентов&quot;</description>
+        <code>00000000109</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="34afcd43-5916-43bb-b55a-1ca550bfe7c4">
+        <name>Справочник_КонтактныеЛица</name>
+        <description>Справочник &quot;Контактные лица&quot;</description>
+        <code>00000000106</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="e21c7892-c1bc-4edb-b736-4ef2298a28bf">
+        <name>Справочник_Контрагенты</name>
+        <description>Справочник &quot;Контрагенты&quot;</description>
+        <code>00000000101</code>
+        <type>
+          <types>CatalogRef.Контрагенты</types>
+        </type>
+      </content>
+      <content id="4bc90e89-81fe-44f1-bea7-8156ad6bf269">
+        <name>Справочник_ЛичныеКонтакты</name>
+        <description>Справочник &quot;Личные контакты&quot;</description>
+        <code>00000000114</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="51c36661-55be-4fe9-8662-3f5376dca508">
+        <name>Справочник_МаркиСплавов</name>
+        <description>Справочник &quot;Марки сплавов&quot;</description>
+        <code>00000000132</code>
+        <type>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+        </type>
+      </content>
+      <content id="1cf2a25f-5cf3-4dd5-b4aa-45ffb5e1d05d">
+        <name>Справочник_НематериальныеАктивы</name>
+        <description>Справочник &quot;Нематериальные активы&quot;</description>
+        <code>00000000120</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="d54ce8d3-8090-4746-b4a8-86c5d84801f6">
+        <name>Справочник_Номенклатура</name>
+        <description>Справочник &quot;Номенклатура&quot;</description>
+        <code>00000000102</code>
+        <type>
+          <types>CatalogRef.Номенклатура</types>
+        </type>
+      </content>
+      <content id="3b5c67cf-ebaa-4b0c-9a16-80b2f896a9ec">
+        <name>Справочник_НоменклатурныеГруппы</name>
+        <description>Справочник &quot;Номенклатурные группы&quot;</description>
+        <code>00000000112</code>
+        <type>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+        </type>
+      </content>
+      <content id="6b547505-8872-4542-9cf2-d24e7cd62910">
+        <name>Справочник_ОбъектыСтроительства</name>
+        <description>Справочник &quot;Объекты строительства&quot;</description>
+        <code>00000000122</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="2f854320-0f5c-4368-8d37-9ba5a9750f61">
+        <name>Справочник_Организации</name>
+        <description>Справочник &quot;Организации&quot;</description>
+        <code>00000000113</code>
+        <type>
+          <types>CatalogRef.Организации</types>
+        </type>
+      </content>
+      <content id="d3b2164e-6a1f-45fc-8f2e-e4cc8ca9c260">
+        <name>Справочник_ОсновныеСредства</name>
+        <description>Справочник &quot;Основные средства&quot;</description>
+        <code>00000000107</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="24c5315e-e383-4b03-bc66-724c952877f2">
+        <name>Справочник_Подразделения</name>
+        <description>Справочник &quot;Подразделения&quot;</description>
+        <code>00000000111</code>
+        <type>
+          <types>CatalogRef.Подразделения</types>
+        </type>
+      </content>
+      <content id="fe854a2a-53c5-494a-96ca-d3069492dfed">
+        <name>Справочник_ПодразделенияОрганизаций</name>
+        <description>Справочник &quot;ПодразделенияОрганизаций&quot;</description>
+        <code>00000000116</code>
+        <type>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+        </type>
+      </content>
+      <content id="671e58d2-f798-4b29-a9bc-ad797fbeb30a">
+        <name>Справочник_Проекты</name>
+        <description>Справочник &quot;Проекты&quot;</description>
+        <code>00000000108</code>
+        <type>
+          <types>CatalogRef.Проекты</types>
+        </type>
+      </content>
+      <content id="5a33ac2f-674c-416d-a551-c68aec46e0f1">
+        <name>Справочник_ПрофилиПользователей</name>
+        <description>Справочник &quot;Профили пользователей&quot;</description>
+        <code>00000000119</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="da263e91-e772-44a2-a732-1e522d234df4">
+        <name>Справочник_ПрочиеДоходыИРасходы</name>
+        <description>Справочник &quot;Прочие доходы и расходы&quot;</description>
+        <code>00000000124</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="7376e38b-d168-4783-9790-4558cb33d06e">
+        <name>Справочник_РасходыБудущихПериодов</name>
+        <description>Справочник &quot;Расходы будущих периодов&quot;</description>
+        <code>00000000126</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="b77cc4a5-9e73-4542-a0e9-7fb09f327d09">
+        <name>Справочник_Резервы</name>
+        <description>Справочник &quot;Резервы&quot;</description>
+        <code>00000000125</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="1e086502-2afb-43ba-ba70-842897deb475">
+        <name>Справочник_СерииНоменклатуры</name>
+        <description>Справочник &quot;Серии Номенклатуры&quot;</description>
+        <code>00000000127</code>
+        <type>
+          <types>CatalogRef.СерииНоменклатуры</types>
+        </type>
+      </content>
+      <content id="b0b0df60-5545-425d-958c-9c0b3d1f99d0">
+        <name>Справочник_Склады</name>
+        <description>Справочник &quot;Склады&quot;</description>
+        <code>00000000105</code>
+        <type>
+          <types>CatalogRef.Склады</types>
+        </type>
+      </content>
+      <content id="2cda33cd-2bef-4b58-a47f-e6a0c498d609">
+        <name>Справочник_СобытияОС</name>
+        <description>Справочник &quot;События ОС&quot;</description>
+        <code>00000000130</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="d8350c5c-6487-4e0a-aadf-f9ae79561123">
+        <name>Справочник_СостоянияЗаказа</name>
+        <description>Справочник &quot;Состояния заказа&quot;</description>
+        <code>00000000131</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+        </type>
+      </content>
+      <content id="6c504616-8049-44c7-bac8-8e0427e69e20">
+        <name>Справочник_СотрудникиОрганизаций</name>
+        <description>Справочник &quot;Сотрудники организаций&quot;</description>
+        <code>00000000117</code>
+        <type>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+        </type>
+      </content>
+      <content id="9e4604e2-1e7d-495f-aa87-6b41b0a7dd89">
+        <name>Справочник_СтатьиДвиженияДенежныхСредств</name>
+        <description>Справочник &quot;Статьи движения денежных средств&quot;</description>
+        <code>00000000128</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="d20a549b-da99-4288-b8dc-5a0f03803f45">
+        <name>Справочник_СтатьиЗатрат</name>
+        <description>Справочник &quot;Статьи затрат&quot;</description>
+        <code>00000000121</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="30ff229e-0e47-495f-924f-30cb97c063d7">
+        <name>Справочник_УГМК_СтруктураПредприятия</name>
+        <description>Справочник &quot;Структура предприятия&quot;</description>
+        <code>00000000129</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="f90b4c8f-0eb3-40e8-8ad9-0a11c18c3ab9">
+        <name>Справочник_ФизическиеЛица</name>
+        <description>Справочник &quot;Физические лица&quot;</description>
+        <code>00000000104</code>
+        <type>
+          <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+          <types>CatalogRef.СерииНоменклатуры</types>
+          <types>CatalogRef.СК_МаркиСплавов</types>
+          <types>CatalogRef.НоменклатурныеГруппы</types>
+          <types>CatalogRef.ПодразделенияОрганизаций</types>
+          <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+          <types>CatalogRef.Проекты</types>
+          <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+          <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+          <types>DocumentRef.ЗаказНаПроизводство</types>
+          <types>DocumentRef.ЗаказПокупателя</types>
+          <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+          <types>CatalogRef.Подразделения</types>
+          <types>DocumentRef.ВнутреннийЗаказ</types>
+          <types>CatalogRef.Контрагенты</types>
+          <types>String</types>
+          <types>CatalogRef.Организации</types>
+          <types>DocumentRef.СертификацияНоменклатуры</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+          <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+          <types>BusinessProcessRef.УГМК_Плавка</types>
+          <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+          <types>CatalogRef.СотрудникиОрганизаций</types>
+          <types>CatalogRef.Номенклатура</types>
+          <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+          <types>CatalogRef.РабочиеЦентры</types>
+          <types>CatalogRef.Склады</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="27178f66-2d5b-4f29-b38d-4d79e4ae7440">
+      <name>Документ_ЗаказПокупателя</name>
+      <description>Документ заказ покупателя</description>
+      <code>00000000118</code>
+      <type>
+        <types>DocumentRef.ЗаказПокупателя</types>
+      </type>
+    </items>
+    <items id="f3312e8a-4e5a-433b-a919-a9be5cb6de86">
+      <name>Документы</name>
+      <description>Документы</description>
+      <code>00000000002</code>
+      <type>
+        <types>DocumentRef.ЗаявкаНаСертификациюНоменклатуры</types>
+        <types>DocumentRef.АктОтбораПробНоменклатуры</types>
+        <types>DocumentRef.ЗаказНаПроизводство</types>
+        <types>DocumentRef.ЗаказПокупателя</types>
+        <types>DocumentRef.КорректировкаЗаказаПокупателя</types>
+        <types>DocumentRef.ВнутреннийЗаказ</types>
+        <types>DocumentRef.СертификацияНоменклатуры</types>
+        <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+      </type>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

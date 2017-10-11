@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a74edc-350f-4d72-9a2d-e1a49f9b0da9">
+  <name>rigth</name>
+  <synonym>
+    <key>ru</key>
+    <value>Rigth</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

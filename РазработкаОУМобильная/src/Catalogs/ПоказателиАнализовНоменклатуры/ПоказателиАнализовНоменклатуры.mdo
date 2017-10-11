@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbff4c64-76a3-49e6-aa10-51aef0879c46">
+  <producedTypes>
+    <objectType typeId="4a486b10-8ecc-4b8d-9dad-2e6eed18a6f1" valueTypeId="aa1eb359-99c1-40f3-bfa5-10a49b697d74"/>
+    <refType typeId="42e63581-2485-4b82-a2ae-b3e78acc1c35" valueTypeId="93c1ef78-c273-4204-bef4-3ce4eda8701e"/>
+    <selectionType typeId="6aab12ba-3c2d-4dfb-adda-462cfc51e089" valueTypeId="99d0ca8e-9c24-4ca3-9014-8e7e5c66877f"/>
+    <listType typeId="65349cbb-c86a-49cd-885e-6fe3cef4646c" valueTypeId="58f82b0f-991e-4ce9-aaf3-0234d636b83a"/>
+    <managerType typeId="34265411-5e0c-4ef3-b008-3b2d8c190040" valueTypeId="e65db18e-b412-4db7-ab37-bf9c2d088576"/>
+  </producedTypes>
+  <name>ПоказателиАнализовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели анализов номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>Catalog.ПоказателиАнализовНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПоказателиАнализовНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2959cefd-a891-4fac-9e0f-e3c1692ac377">
+      <name>УГМК_ВеличинаЗагрязнения</name>
+      <description>Величина загрязнения (чистота канала)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="2e253fc9-d798-4578-a505-13d4e099a4f8">
+      <name>УГМК_ВременноеСопротивление</name>
+      <description>Временное сопротивление (предел прочности)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="aeef6e42-fc84-40b1-b3e7-266a55c6df7b">
+      <name>УГМК_НормативРазбраковки</name>
+      <description>Норматив разбраковки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="d1bd0141-0d9b-4f8a-a4a7-885a3eaee833">
+      <name>УГМК_НормативРезкиГП</name>
+      <description>Норматив резки на ГП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="0724a66f-2cb4-402a-90c9-e87688110e4c">
+      <name>УГМК_ОтносительноеУдлинение</name>
+      <description>Относительное удлинение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="4d34199d-5979-4bed-a085-d20c0cb2d7d6">
+      <name>УГМК_СреднийРазмерЗерна</name>
+      <description>Средний размер зерна</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="fe00157a-073a-4f13-8206-2c0f4d112d5c">
+      <name>УГМК_Твердость</name>
+      <description>Твердость</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="8b590eaf-4c54-4843-909b-54b2135379ab">
+      <name>УГМК_УдельноеЭлПроводность</name>
+      <description>Удельная электропроводность</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="b866f3ab-7250-4a3f-a6ba-9c2d09726cd0">
+      <name>УГМК_УдельноеЭлСопротивление</name>
+      <description>Удельное электрическое сопротивление</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f877e299-479f-4c5b-b9aa-35fb43447551">
+    <name>ВидРезультатаАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид результата анализа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыРезультатовАнализаНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a28b7bb1-4668-4e30-9c91-0e3d8794ea34">
+    <name>МинЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальное значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7d863cd6-a497-4027-906f-a3c1d67eacaf">
+    <name>МаксЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="441632f8-5f49-455f-8b45-ee0b9744f8b8">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5ec39abf-5ef6-4d2f-ba46-6f258e8c0dd5">
+    <name>УГМК_ВидПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид показателя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.УГМК_ВидыПоказателейСертификата</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="30abfc64-da06-4622-9b58-fe454837c3de">
+    <name>УГМК_КодСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код связи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+  </attributes>
+  <attributes uuid="87ecad80-6da8-46d1-9696-e1c3284af3c1">
+    <name>УГМК_Представление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a1dd48f9-17bd-4d84-81d3-0dfe4373e666">
+    <name>УГМК_Остальное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остальное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b4238f73-285a-4209-a5a1-837dcf425f95">
+    <name>УГМК_НеРегламентируется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не регламентируется</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d746c11d-bc3d-4700-aa78-e0b95a000598">
+    <name>УГМК_ТипАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип анализа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Владелец</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>ChartOfCharacteristicTypes.СвойстваОбъектов.ТипАнализа</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="16316a3b-e305-4dde-bf56-14442a0e98b3">
+    <name>УГМК_ВСуммеПримесей</name>
+    <synonym>
+      <key>ru</key>
+      <value>В сумме примесей</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="063877fa-7047-417f-b85e-4ef6c0cee675">
+    <name>УГМК_ДляСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для сортировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b710213e-933e-4bcd-8fef-808a260ab94e">
+    <name>УГМК_СпособОбъединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ объединения</value>
+    </synonym>
+    <comment>0 - Максимальное, 1 - Минимальное, 2 - Среднее</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="eccb9f2d-0621-481b-a030-711ade999a9b">
+    <name>УГМК_ИдентификаторТипа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор типа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5d9ffd4c-9221-405f-a5c3-157d47c73ee5">
+    <name>УГМК_МногоязычныеПредставленияСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многоязычные представления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="b6dc9248-4742-4012-b36b-5d9412699ce7">
+    <producedTypes>
+      <objectType typeId="b06ffaf1-d4e1-433c-b93c-77489f2a98e4" valueTypeId="921eef20-c6d8-422d-b512-997582acf49c"/>
+      <rowType typeId="c3c9ec97-3838-4769-85c3-b7f8f451f6a4" valueTypeId="610b6221-cfc1-4479-a255-7753574653e4"/>
+    </producedTypes>
+    <name>ДопустимыеЗначенияПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимые значения показателей</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="acfea064-baa1-4ac9-9cad-ad4ced52c65c">
+      <name>ЗначениеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение показателя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ЗначенияПоказателейАнализовНоменклатуры</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ПоказателиАнализовНоменклатуры.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="887de653-f7c1-4703-ae53-483f7431ef7d">
+    <producedTypes>
+      <objectType typeId="9d64f03f-a876-45c9-bfe0-59ade646886f" valueTypeId="740128eb-5dd8-4581-844c-d273bd822c7e"/>
+      <rowType typeId="1e6e5d74-e289-4018-a1ec-4bbf93f5aeb2" valueTypeId="a50ee835-bfd5-41b2-8423-a04bf16e2942"/>
+    </producedTypes>
+    <name>УГМК_ПереносВременно</name>
+    <synonym>
+      <key>ru</key>
+      <value>УГМК перенос временно</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="da46ad4d-6d7a-4bfc-a2a5-014558feac13">
+      <name>УГМК_КодСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код связи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b49826c9-77e1-4949-9f42-9fce459b30de">
+    <producedTypes>
+      <objectType typeId="95ba4e07-9cd8-4d23-92c4-ae2d1fc878ab" valueTypeId="8c6648fc-e3b3-470a-a268-28915c66a6c8"/>
+      <rowType typeId="918fd973-61d6-4d25-9a73-244e3ef19778" valueTypeId="b6fa9ea4-5fca-4625-a6c1-54618d8dc639"/>
+    </producedTypes>
+    <name>УГМК_МногоязычныеПредставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многоязычные представления</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="16948450-17f3-42c0-975b-a3111e910029">
+      <name>Язык</name>
+      <synonym>
+        <key>ru</key>
+        <value>Язык</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7fb29739-b2df-4d54-9537-8f0bfdf93479">
+      <name>ИмяРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="befc63c1-4690-429b-ac0a-61ca0d091888">
+      <name>СоставнойКлюч</name>
+      <synonym>
+        <key>ru</key>
+        <value>Составной ключ</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f9ba0c2f-62e4-46aa-8854-30b926cccaeb">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <use>ForFolderAndItem</use>
+  </tabularSections>
+</mdclass:Catalog>

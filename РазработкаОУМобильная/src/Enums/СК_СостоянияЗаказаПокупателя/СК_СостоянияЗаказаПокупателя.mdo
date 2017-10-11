@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6f3a5a0-06bc-446b-b14f-34f238182678">
+  <producedTypes>
+    <refType typeId="14fd06d8-7506-4f60-949f-68f086144c5c" valueTypeId="7082065c-8d07-4dea-9666-f2de0b3f215a"/>
+    <listType typeId="761632d3-0c3e-46be-a175-54dba45aa750" valueTypeId="e3552a6b-0558-4cee-ac37-e81868447b09"/>
+    <managerType typeId="36b72a29-5d99-48b0-8a7b-c22c091a9ef8" valueTypeId="d6e94782-a3c3-4f58-b03b-3f6136130cb4"/>
+  </producedTypes>
+  <name>СК_СостоянияЗаказаПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заказа покупателя (ск)</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="a5370b7b-0f6b-4b0f-8ab1-8ed93d1064d2">
+    <name>ЗадатьВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задать в производство</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1dbd5934-51d1-4dc0-bf30-0c2aab145251">
+    <name>ОжиданиеПредоплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание предоплаты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="35114895-eddd-4f98-a5ff-355513e88718">
+    <name>ОжиданиеУтвержденияСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание утверждения спецификации</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c2ef6dfa-8007-48a2-8e68-e9142bede5a0">
+    <name>ЗаказОтменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменить</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ae650e69-02e7-4a0c-8b9d-c1ea9eb2526d">
+    <name>ОтгрузкаИзНаличия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка из наличия</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

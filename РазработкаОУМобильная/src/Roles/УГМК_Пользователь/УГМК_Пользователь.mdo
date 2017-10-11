@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcb669a9-1e4a-42b2-87fb-deba28b5525d">
+  <name>УГМК_Пользователь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь (УГМК)</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

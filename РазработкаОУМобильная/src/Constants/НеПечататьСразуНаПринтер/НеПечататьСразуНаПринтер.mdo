@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1efef8bb-9605-4576-8636-0c707863e9f5">
+  <producedTypes>
+    <managerType typeId="469f4711-6b55-444d-ba7b-01cb83ec02d7" valueTypeId="f073edfd-92c8-4466-9300-615b19e876a8"/>
+    <valueManagerType typeId="8c3d4ec1-3e4a-444c-960c-9352b11968b3" valueTypeId="c5eae035-fb1c-43be-a608-e9a152cc9c43"/>
+  </producedTypes>
+  <name>НеПечататьСразуНаПринтер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не печатать сразу на принтер</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2278d2d8-3834-4145-a4a5-f66600083ffe">
+  <producedTypes>
+    <managerType typeId="0741237a-0ea2-4568-89cd-789dc3a74ad4" valueTypeId="cde2fd96-99fd-47bc-a35d-73510c76052e"/>
+    <valueManagerType typeId="873d8796-999f-4783-811f-2cc199579b7c" valueTypeId="468ccf31-c0f2-47a1-ac1a-4d69087d62db"/>
+  </producedTypes>
+  <name>НастройкиПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подключения</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаКонстант</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

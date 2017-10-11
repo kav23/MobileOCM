@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbca8d90-857b-4bf9-b02d-36ea568ccc75">
+  <producedTypes>
+    <managerType typeId="d866ef8a-319d-4611-a6dd-5d3a66ec7910" valueTypeId="efd96834-14e3-4540-b401-db4264ae10d8"/>
+  </producedTypes>
+  <name>WSСсылка1</name>
+  <comment></comment>
+  <locationURL>http://10.35.4.53:4480/tou_kav/ws/MobileTransfer.1cws?wsdl</locationURL>
+</mdclass:WSReference>

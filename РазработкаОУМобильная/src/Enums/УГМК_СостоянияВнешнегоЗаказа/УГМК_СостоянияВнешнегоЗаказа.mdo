@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32f04311-1c8e-4d5c-b053-59989814d9b2">
+  <producedTypes>
+    <refType typeId="251e8aee-bd82-4291-91a5-46d278abb867" valueTypeId="400aaf94-b8a7-4ceb-ad7b-573154c5a31d"/>
+    <listType typeId="40985aa8-259e-4d3b-a5b6-00c61a9ce197" valueTypeId="6b01b5d2-65b0-4ee9-b8e1-6ba10df1bef9"/>
+    <managerType typeId="0e8f4f9a-18a0-4390-94cb-2fbe21687f79" valueTypeId="773bc745-1151-40e8-9418-1da688a823ba"/>
+  </producedTypes>
+  <name>УГМК_СостоянияВнешнегоЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния внешнего заказа (УГМК)</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f0b7489b-beae-402f-b98b-8f6ca9e14e3c">
+    <name>Предварительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1b691da5-eb4e-43f0-aee8-40e8be3cf0d9">
+    <name>УтвержденныйКонтрагентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвержденный контрагентом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="331f31cd-6192-41e2-83a2-0dcd2b6bfd7c">
+    <name>РедактируетсяУГМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактируется УГМК</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1826fd2e-455a-4590-8d9e-f7cf783913ec">
+    <name>УтвержденУГМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвержден УГМК</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

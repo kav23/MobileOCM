@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83dd0eda-5707-47cc-b730-8cd2999e0a90">
+  <producedTypes>
+    <managerType typeId="564d7199-2f30-4bc9-9996-75c0e1005298" valueTypeId="b3b739c9-1639-4d12-b20d-5da7fedffee8"/>
+    <valueManagerType typeId="669a0ba1-1638-45b2-a1d1-10b9394ef209" valueTypeId="ef8b0f99-6fbd-403c-9a17-6f1b1762f297"/>
+  </producedTypes>
+  <name>КоличествоРядовГруппВПодборе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество рядов групп в подборе</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

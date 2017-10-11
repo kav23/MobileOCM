@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83e9ce0b-9d03-4eda-8b2b-edcb1a8e7ab8">
+  <producedTypes>
+    <managerType typeId="22691fe7-9fdf-4280-9f1a-3e10d8674ca4" valueTypeId="2f541634-699e-4471-8160-a785ceeebec3"/>
+    <valueManagerType typeId="028f0426-1a8e-4d55-b310-1e05ae372a95" valueTypeId="42555a97-416e-4076-a0a0-aad5a0348d70"/>
+  </producedTypes>
+  <name>СканированиеКомпонентой1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканирование компонентой1С</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.НастройкиОбщие</defaultForm>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

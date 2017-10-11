@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d54c063-a9f8-4e88-bd97-a379116d5805">
+  <producedTypes>
+    <objectType typeId="179a7170-f380-4794-a1ba-3c3aa5fd304a" valueTypeId="959f4c26-d4e2-4f8c-8a58-b88119660c76"/>
+    <managerType typeId="f7407351-b906-468b-a6d8-bb8de27fc484" valueTypeId="bef48b10-ba46-4a20-95c1-d9d51a187282"/>
+  </producedTypes>
+  <name>НастройкиПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки приложения</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.НастройкиПриложения.Form.ПодключаемоеОборудование</defaultForm>
+  <forms uuid="694dc51e-c796-4788-a8e0-791b1c646d4d">
+    <name>ВнешнийВидПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний вид приложения</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3778d366-791d-4177-8833-4171d7973c58">
+    <name>ПодключаемоеОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключаемое оборудование</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7c9caa1-c19e-4a8d-a2af-d93336395f6b">
+    <name>ПодключаемоеОборудованиеСканерШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключаемое оборудование сканер штрихкодов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

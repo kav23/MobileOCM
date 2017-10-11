@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46aed849-ec42-41e0-9bdf-2f9b137a4380">
+  <producedTypes>
+    <objectType typeId="70b17b50-d2a3-449c-a36e-53d878aa1d29" valueTypeId="871e7cef-8d84-43bf-afe7-dfc4ba4f9ec5"/>
+    <refType typeId="028820df-bd8f-4c76-a85d-59bf3cdb6f2d" valueTypeId="16da9c64-7af6-4e81-9b67-117b876d82c0"/>
+    <selectionType typeId="2122c5e9-d35c-4671-ad00-738f5ee639e8" valueTypeId="393577e4-e234-4943-adda-a1c2327a1299"/>
+    <listType typeId="69d0577c-5285-4336-b256-8c366a13ff59" valueTypeId="2d60f1bc-aad1-4526-bdff-469c1217e04b"/>
+    <managerType typeId="94086e09-ac15-4d22-9f02-437847d0aa31" valueTypeId="bce95b4a-570d-48eb-b813-6389fc1f3b0f"/>
+  </producedTypes>
+  <name>УГМК_СостоянияЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заказа (УГМК)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УГМК_СостоянияЗаказа.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УГМК_СостоянияЗаказа.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e4ec74cc-fdd9-4f89-a3be-e85142f38362">
+      <name>АвтоВыпускПриемка</name>
+      <description>Авто выпуск приемка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000103</value>
+      </code>
+    </items>
+    <items id="b4198fae-b09a-43a5-ad49-816d6d5dcbb3">
+      <name>АвтоВыпускСнятие</name>
+      <description>Авто выпуск снятие</description>
+      <code xsi:type="core:StringValue">
+        <value>000000104</value>
+      </code>
+    </items>
+    <items id="91951b38-5762-46d6-9a8f-8123900f155d">
+      <name>Автовыпуск</name>
+      <description>Автовыпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>000000105</value>
+      </code>
+    </items>
+    <items id="e5693368-efaf-422b-a9d5-f4e3be709403">
+      <name>Брак</name>
+      <description>Брак</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="bbdfca71-eaf1-4427-8a80-88a082b549d2">
+      <name>ВзвешиваниеВТаре</name>
+      <description>Взвешивание в Таре</description>
+      <code xsi:type="core:StringValue">
+        <value>000000063</value>
+      </code>
+    </items>
+    <items id="f66de2d9-6145-4bc3-bb18-929c94d25e39">
+      <name>ВзвешиваниеГП</name>
+      <description>Взвешивание ГП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000093</value>
+      </code>
+    </items>
+    <items id="e8a3d599-8152-45b4-9c1d-1895f4170e45">
+      <name>ВнутреннийЗаказ</name>
+      <description>Внутренний заказ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="9cfafdaf-03ba-4850-af53-49584552e38d">
+      <name>ВозвратОтПокупателя</name>
+      <description>Возврат от покупателя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000028</value>
+      </code>
+    </items>
+    <items id="712dbda8-804a-49cf-8213-880d756bd5ff">
+      <name>ВосстановитьПрослеживаемостьПартии</name>
+      <description>Восстановить прослеживаемость партии</description>
+      <code xsi:type="core:StringValue">
+        <value>000000101</value>
+      </code>
+    </items>
+    <items id="e6301219-f26f-4bef-9e26-7990b0796009">
+      <name>ВыгруженВКлиентскийПортал</name>
+      <description>Выгружен в клиентский портал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000038</value>
+      </code>
+    </items>
+    <items id="348a55e2-4b2a-4f0f-9e04-4389ca5d6843">
+      <name>ЗавершениеОперацийСПартией</name>
+      <description>Завершение операций с партией</description>
+      <code xsi:type="core:StringValue">
+        <value>000000071</value>
+      </code>
+    </items>
+    <items id="9c873961-cf1a-4a26-a778-dcd026c06237">
+      <name>ЗагруженИзКлиенскогоПортала</name>
+      <description>Загружен из клиенского портала</description>
+      <code xsi:type="core:StringValue">
+        <value>000000037</value>
+      </code>
+    </items>
+    <items id="b1ec4a7d-20a1-4f8d-b0ad-a22c004a9df1">
+      <name>ЗагрузкаШлака</name>
+      <description>Загрузка шлака</description>
+      <code xsi:type="core:StringValue">
+        <value>000000090</value>
+      </code>
+    </items>
+    <items id="07229b53-9ae7-47f5-95e2-391eb84b7bc1">
+      <name>ЗаказПокупателя</name>
+      <description>Заказ покупателя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e0b31673-ae56-46ee-8d16-b2fff862e683">
+      <name>ЗакрытЗаказНаПроизводство</name>
+      <description>Закрыт заказ на производство</description>
+      <code xsi:type="core:StringValue">
+        <value>000000031</value>
+      </code>
+    </items>
+    <items id="59800d9b-fe08-4bd7-82a5-b911b81c24b0">
+      <name>ЗакрытЗаказПокупателя</name>
+      <description>Закрыт заказ покупателя</description>
+      <code xsi:type="core:StringValue">
+        <value>000000032</value>
+      </code>
+    </items>
+    <items id="1ccf75f6-5069-440f-bef6-a3b1f2c90015">
+      <name>ЗаменаБрака</name>
+      <description>Замена брака</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="994c27b3-c9d0-4185-9526-97a782fc5540">
+      <name>ЗапланированНаОборудование</name>
+      <description>Запланирован на оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="0d0c27ba-e4d7-4578-b892-292fb08ec489">
+      <name>Затаривание</name>
+      <description>Затаривание</description>
+      <code xsi:type="core:StringValue">
+        <value>000000070</value>
+      </code>
+    </items>
+    <items id="e8540ddc-35c1-4c8e-9953-8d983078a588">
+      <name>АнализЗаявка</name>
+      <description>Заявка на анализ </description>
+      <code xsi:type="core:StringValue">
+        <value>000000047</value>
+      </code>
+    </items>
+    <items id="0bbb4189-680d-420e-a967-26f21d951a91">
+      <name>ИзготовлениеВзвешено</name>
+      <description>Изготовление (Взвешено)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000086</value>
+      </code>
+    </items>
+    <items id="27d00074-293b-4b43-b07d-00bd97478c8a">
+      <name>Изготовление</name>
+      <description>Изготовление (Склад)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="ffd67739-00a6-469e-af2b-85bce93804c6">
+      <name>ИзготовлениеФонды</name>
+      <description>Изготовление (Фонды)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000040</value>
+      </code>
+    </items>
+    <items id="1b9b88df-ec40-4a87-be21-9a75b00a178c">
+      <name>ИзменениеВесаСерии</name>
+      <description>Изменение веса серии</description>
+      <code xsi:type="core:StringValue">
+        <value>000000110</value>
+      </code>
+    </items>
+    <items id="530cafe6-7618-4c5d-bfb8-112ef92b3fac">
+      <name>ИзменениеЗаказаВыпущенойПродукции</name>
+      <description>Изменение заказа выпущеной продукции</description>
+      <code xsi:type="core:StringValue">
+        <value>000000034</value>
+      </code>
+    </items>
+    <items id="59f50a4d-3c48-4014-a714-eb4cc3d6b428">
+      <name>ИзменениеЗаказаСерии</name>
+      <description>Изменение заказа серии</description>
+      <code xsi:type="core:StringValue">
+        <value>000000107</value>
+      </code>
+    </items>
+    <items id="7b63e33b-fbb7-43f4-af54-36a2180bd644">
+      <name>ИзменениеИдентификацииОтходов</name>
+      <description>Изменение идентификации отходов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000073</value>
+      </code>
+    </items>
+    <items id="16d2ce2a-fd08-4c8c-ad4a-3a0e116bfff9">
+      <name>ИзменениеТарыСерии</name>
+      <description>Изменение тары серии</description>
+      <code xsi:type="core:StringValue">
+        <value>000000109</value>
+      </code>
+    </items>
+    <items id="3f261889-6734-44d2-a4f6-f8317d5fcdb9">
+      <name>ИзменениеЦены</name>
+      <description>Изменение цены</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="450961e9-5889-4344-94bf-70552b75d6e5">
+      <name>Инвентаризация</name>
+      <description>Инвентаризация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="74ef60f9-8cb2-4483-bac1-c8feabe978a0">
+      <name>ИнвентаризацияТары</name>
+      <description>Инвентаризация тары</description>
+      <code xsi:type="core:StringValue">
+        <value>000000062</value>
+      </code>
+    </items>
+    <items id="708ce7e7-0c8d-44ad-b65c-e2d25da4da66">
+      <name>ИнвентаризацияТехнологическойОснастки</name>
+      <description>Инвентаризация технологической оснастки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000108</value>
+      </code>
+    </items>
+    <items id="588e2362-942f-47e7-8d3b-c454514fdb4b">
+      <name>ИспользованиеСырьяРазрешено</name>
+      <description>Использование сырья разрешено</description>
+      <code xsi:type="core:StringValue">
+        <value>000000074</value>
+      </code>
+    </items>
+    <items id="8857d0fd-a487-4ca9-a5ce-171fcb04faba">
+      <name>Кооперация</name>
+      <description>Кооперация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="f818bbbd-cdf3-4395-8532-b4426e30847d">
+      <name>КорректировкаВнутреннегоЗаказа</name>
+      <description>Корректировка внутреннего</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="53b628ec-8ee4-4d94-818d-25478b4fc397">
+      <name>КорректировкаЗаказа</name>
+      <description>Корректировка заказа</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="3cb456fd-dae1-47a4-a52d-10eb653f2917">
+      <name>КорректировкаЗаказаВПроизводство</name>
+      <description>Корректировка заказа в производство</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="480a05c3-6741-4b54-91cb-6c955c09b08f">
+      <name>Маркировка</name>
+      <description>Маркировка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000046</value>
+      </code>
+    </items>
+    <items id="081fdda7-9a5d-4825-ad1b-98fe19d6367c">
+      <name>МаркировкаСТК</name>
+      <description>Маркировка СТК</description>
+      <code xsi:type="core:StringValue">
+        <value>000000061</value>
+      </code>
+    </items>
+    <items id="730dfa7a-b3d3-4490-8b77-69fcf431ccfc">
+      <name>МатериалыВНаличии</name>
+      <description>Материалы в наличии</description>
+      <code xsi:type="core:StringValue">
+        <value>000000029</value>
+      </code>
+    </items>
+    <items id="59228ed1-cead-4743-b510-397b7260e427">
+      <name>Наплавление</name>
+      <description>Наплавление</description>
+      <code xsi:type="core:StringValue">
+        <value>000000097</value>
+      </code>
+    </items>
+    <items id="63c432ca-44e7-4293-afb5-4f354366f092">
+      <name>Несоответствие</name>
+      <description>Несоответствие</description>
+      <code xsi:type="core:StringValue">
+        <value>000000089</value>
+      </code>
+    </items>
+    <items id="ffff2167-dff7-4798-8ed4-45fa425f6b76">
+      <name>ОбработанНаОборудовании</name>
+      <description>Обработан на оборудовании</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="ce8ff1f9-9d63-47a8-9338-377e0bb030e1">
+      <name>ОписьМеталла</name>
+      <description>Опись металла</description>
+      <code xsi:type="core:StringValue">
+        <value>000000045</value>
+      </code>
+    </items>
+    <items id="3c65048e-0f2b-4031-a8f7-73bbb5061054">
+      <name>Отгружен</name>
+      <description>Отгружен (реализация)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000027</value>
+      </code>
+    </items>
+    <items id="fc4a5ffd-4645-48ca-9592-d5c1e079680c">
+      <name>ОтгруженБезПереходаПрав</name>
+      <description>Отгружен Без перехода прав собственности</description>
+      <code xsi:type="core:StringValue">
+        <value>000000041</value>
+      </code>
+    </items>
+    <items id="09f1dca5-6869-4735-8b60-45c272568a4e">
+      <name>ОтгруженОХ</name>
+      <description>Отгружен ОХ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000026</value>
+      </code>
+    </items>
+    <items id="02ea0bd7-7a91-4906-a143-ae34a0278f27">
+      <name>ОтменаЗадания</name>
+      <description>Отмена задания</description>
+      <code xsi:type="core:StringValue">
+        <value>000000092</value>
+      </code>
+    </items>
+    <items id="248c3778-258f-4170-8341-b0386dcc156b">
+      <name>Отменен</name>
+      <description>Отменен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000033</value>
+      </code>
+    </items>
+    <items id="2fc7f8ae-45d3-410b-b1b8-70ce4cdb8fea">
+      <name>ОтправленНаОборудование</name>
+      <description>Отправлен на оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000088</value>
+      </code>
+    </items>
+    <items id="8b02b740-a233-48d1-a22c-361cbc907d96">
+      <name>ОтправленНаОбработку</name>
+      <description>Отправлен на обработку</description>
+      <code xsi:type="core:StringValue">
+        <value>000000058</value>
+      </code>
+    </items>
+    <items id="0e25c574-612c-4ebb-bc1c-dd51c7595942">
+      <name>Перевес</name>
+      <description>Перевес</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="84cf4fc0-3ae7-440d-a5f9-b199c71fdb68">
+      <name>ПередачаТоваров</name>
+      <description>Передача товаров</description>
+      <code xsi:type="core:StringValue">
+        <value>000000064</value>
+      </code>
+      <content id="98eb45ef-5eff-4f0e-9d83-503ad56bf6ce">
+        <name>ВПереработку</name>
+        <description>Передача материалов переработчику</description>
+        <code xsi:type="core:StringValue">
+          <value>000000065</value>
+        </code>
+      </content>
+      <content id="c92eee38-c56d-4184-b5e6-3c0d17eab50b">
+        <name>ИзПереработки</name>
+        <description>Передача продукции заказчику</description>
+        <code xsi:type="core:StringValue">
+          <value>000000066</value>
+        </code>
+      </content>
+      <content id="be04ba05-6bbd-400a-bc34-b22e404272cf">
+        <name>ВПереработкуБрак</name>
+        <description>Передача продукции переработчику (брак)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000067</value>
+        </code>
+      </content>
+    </items>
+    <items id="efc9feaf-b644-4096-9300-a9b48dab5a4d">
+      <name>Передел</name>
+      <description>Передел</description>
+      <code xsi:type="core:StringValue">
+        <value>000000080</value>
+      </code>
+    </items>
+    <items id="770264fc-de5d-434d-8aec-987d462e6c89">
+      <name>ПеределАвтоПеремещение</name>
+      <description>Передел (Авто перемещение)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000084</value>
+      </code>
+    </items>
+    <items id="9bbb0547-ad14-4385-a82a-2f44ce98a442">
+      <name>Перемещение</name>
+      <description>Перемещение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="45320546-1347-48be-b489-6a3eb81b3450">
+      <name>ПеремещениеОтправка</name>
+      <description>Перемещение (отправка)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000068</value>
+      </code>
+    </items>
+    <items id="9b51ac0b-3a28-4059-8f55-30ce5b1ce28a">
+      <name>ПеремещениеБыстрое</name>
+      <description>Перемещение без подтв. (быстрое)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000069</value>
+      </code>
+    </items>
+    <items id="67676312-3420-4d97-88ce-564e5a675900">
+      <name>ПеремещениеВнутрицеховое</name>
+      <description>Перемещение внутрицеховое</description>
+      <code xsi:type="core:StringValue">
+        <value>000000083</value>
+      </code>
+    </items>
+    <items id="e791648a-bdbd-44c0-93c9-2d9922953b02">
+      <name>ПереходПраваСобственности</name>
+      <description>Переход права собственности</description>
+      <code xsi:type="core:StringValue">
+        <value>000000057</value>
+      </code>
+    </items>
+    <items id="811cd272-9175-432a-86a5-d779b3dbd8da">
+      <name>ПлавильныйЦех</name>
+      <description>Плавильный цех</description>
+      <code xsi:type="core:StringValue">
+        <value>000000056</value>
+      </code>
+      <content id="ddf9cb1a-514a-4752-8959-7335b6000186">
+        <name>ИзмерениеЧерновогоСлитка</name>
+        <description>Измерение чернового слитка</description>
+        <code xsi:type="core:StringValue">
+          <value>000000081</value>
+        </code>
+      </content>
+      <content id="bab2f26c-7d6e-4628-8e83-24511e4900bc">
+        <name>ЛитейныйДефект</name>
+        <description>Литейный дефект</description>
+        <code xsi:type="core:StringValue">
+          <value>000000082</value>
+        </code>
+      </content>
+      <content id="90d7852d-38de-4d0a-988f-12aa999bd57c">
+        <name>Навеска</name>
+        <description>Навеска</description>
+        <code xsi:type="core:StringValue">
+          <value>000000077</value>
+        </code>
+      </content>
+      <content id="e28ccf00-ba65-444f-aa0b-7d5de4d44895">
+        <name>Отливка</name>
+        <description>Отливка</description>
+        <code xsi:type="core:StringValue">
+          <value>000000053</value>
+        </code>
+      </content>
+      <content id="6ffde7d2-4c2e-4f6d-abb0-9ec5a8d70243">
+        <name>Плавка</name>
+        <description>Плавка</description>
+        <code xsi:type="core:StringValue">
+          <value>000000042</value>
+        </code>
+      </content>
+      <content id="d42b794b-0f37-4535-9b0c-ee94896fef54">
+        <name>ПодачаШихты</name>
+        <description>Подача шихты</description>
+        <code xsi:type="core:StringValue">
+          <value>000000052</value>
+        </code>
+      </content>
+      <content id="1b90aafa-12ea-4d4d-a9fc-1f4b88fc3b8c">
+        <name>РезкаСлитков</name>
+        <description>Резка слитков</description>
+        <code xsi:type="core:StringValue">
+          <value>000000051</value>
+        </code>
+      </content>
+      <content id="5a11ab38-45b0-4106-9cd5-2bb18b9c1130">
+        <name>ПолученИзОбработкиШлак</name>
+        <description>Шлак (Получен из обработки)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000079</value>
+        </code>
+      </content>
+    </items>
+    <items id="79ddb9cc-1955-4c98-b9de-118fe4b341e2">
+      <name>ПолученИзОбработки</name>
+      <description>Получен из обработки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000059</value>
+      </code>
+    </items>
+    <items id="bd6b32b3-7bb1-4180-88f1-5b3ece4c33d3">
+      <name>ПолученИзОбработкиГодное</name>
+      <description>Получен из обработки (годное)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000078</value>
+      </code>
+    </items>
+    <items id="f1c29057-0140-4b84-9d07-16941d79cfd5">
+      <name>ПолученИзОбработкиОтход</name>
+      <description>Получен из обработки (отход)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000075</value>
+      </code>
+    </items>
+    <items id="1f652b9d-c568-4fff-9793-8c85541ccdcc">
+      <name>ПолученоИзМельницы</name>
+      <description>Получено из мельницы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000091</value>
+      </code>
+    </items>
+    <items id="d8681bb9-c5e5-4fa1-b7a2-76a1799facd5">
+      <name>ПоступлениеТоваров</name>
+      <description>Поступление (закупка)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000039</value>
+      </code>
+    </items>
+    <items id="202ba3f8-eec7-493e-ae00-e6e68cfe026c">
+      <name>ПредъявленСТК</name>
+      <description>Предъявлен СТК</description>
+      <code xsi:type="core:StringValue">
+        <value>000000048</value>
+      </code>
+    </items>
+    <items id="5b930dac-048f-4a1d-a0a0-12fc9ef84665">
+      <name>ПредъявлениеОТКДляПриемкиГП</name>
+      <description>Предъявление ОТК для приемки ГП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000098</value>
+      </code>
+    </items>
+    <items id="f9309182-e16d-427f-9589-042509462a2d">
+      <name>ПриемкаГП</name>
+      <description>Приемка ГП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000099</value>
+      </code>
+    </items>
+    <items id="a1ddfd65-3502-4397-8aae-38643b38800a">
+      <name>ПринятНаОХ</name>
+      <description>Принят на ОХ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000025</value>
+      </code>
+    </items>
+    <items id="4e258e86-2db3-4685-b021-1c4c442a73e2">
+      <name>ПринятСТК</name>
+      <description>Принят СТК</description>
+      <code xsi:type="core:StringValue">
+        <value>000000030</value>
+      </code>
+    </items>
+    <items id="73f70fce-2f48-4286-83b9-0ae7db2a3a4a">
+      <name>ПробаСТК</name>
+      <description>Проба СТК</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="655d266b-92b1-443b-97ed-79130eabfa4a">
+      <name>Разбраковка</name>
+      <description>Разбраковка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000085</value>
+      </code>
+    </items>
+    <items id="9cd62b7b-0830-4ea6-810e-5b6ee0663dcc">
+      <name>РазделениеЦеховойПартии</name>
+      <description>Разделение цеховой партии</description>
+      <code xsi:type="core:StringValue">
+        <value>000000044</value>
+      </code>
+    </items>
+    <items id="bc82279f-3d04-4723-aec6-394bbdfbb950">
+      <name>РазмещенВПлане</name>
+      <description>Размещен в плане</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="6751e196-718f-46c5-88eb-7f64bf12512a">
+      <name>РазмещенВПланеМатериал</name>
+      <description>Размещен в плане материал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="da645a65-0d21-412c-97fa-b32eac02ddab">
+      <name>РазмещенВПроизводстве</name>
+      <description>Размещен в производстве</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="785f44cd-8b0a-46b1-a401-fd5535344ce1">
+      <name>РазрешеноКИзготовлению</name>
+      <description>Разрешено к изготовлению</description>
+      <code xsi:type="core:StringValue">
+        <value>000000036</value>
+      </code>
+    </items>
+    <items id="0a9268b3-078c-4dfc-b15a-7b01a5e2f316">
+      <name>Распаковка</name>
+      <description>Распаковка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000106</value>
+      </code>
+    </items>
+    <items id="f4990bd4-a72d-48b6-a1ba-751530b50c58">
+      <name>РаспоряжениеОбОтгрузке</name>
+      <description>Распоряжение об отгрузке</description>
+      <code xsi:type="core:StringValue">
+        <value>000000035</value>
+      </code>
+    </items>
+    <items id="83baac3c-a0d8-4219-8aa9-7a63db3b2b3e">
+      <name>Резервирование</name>
+      <description>Резервирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="e849ee7a-7887-466a-a426-5971149e38e7">
+      <name>Резка</name>
+      <description>Резка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000094</value>
+      </code>
+    </items>
+    <items id="3ba69236-001a-48ab-b3c8-6164b218b388">
+      <name>РезкаОтходовПЦ</name>
+      <description>Резка отходов ПЦ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000096</value>
+      </code>
+    </items>
+    <items id="433c0a2f-8bc3-47f3-89c6-615250c9c328">
+      <name>АнализРезультат</name>
+      <description>Результат анализа </description>
+      <code xsi:type="core:StringValue">
+        <value>000000060</value>
+      </code>
+    </items>
+    <items id="8454425b-6331-436f-8a3e-06d97e37f40c">
+      <name>СвязьСИсходнойПартией</name>
+      <description>Связь с исходной партией</description>
+      <code xsi:type="core:StringValue">
+        <value>000000102</value>
+      </code>
+    </items>
+    <items id="851f35f1-9a65-49bc-b4b7-be89af598663">
+      <name>Согласование</name>
+      <description>Согласование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="45b5fe5b-ef15-4102-9ca5-f2eb8df5d37b">
+      <name>СпецификацияУтверждена</name>
+      <description>Спецификация утверждена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="fa27adc1-e2f6-47ee-8dad-4f1d31276357">
+      <name>Списание</name>
+      <description>Списание</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="f8cd6008-cfbb-4de1-9aa7-bdf0542b5d8d">
+      <name>СписаниеВПроизводство</name>
+      <description>Списание в производство</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="f5beef1c-3270-4c4b-8c2d-fea89b3a3c1c">
+      <name>СхемаОбработки</name>
+      <description>Схема обработки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000087</value>
+      </code>
+    </items>
+    <items id="9c183995-0d34-4968-9ecc-8d37cff82bd9">
+      <name>Сырьё</name>
+      <description>Сырьё</description>
+      <code xsi:type="core:StringValue">
+        <value>000000054</value>
+      </code>
+      <content id="993b9021-f099-4ae2-81b1-dcbdb442876b">
+        <name>АктПриемкиСырья</name>
+        <description>Акт приемки сырья на ОХ (по массе)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000055</value>
+        </code>
+      </content>
+      <content id="b7594d43-efa3-4d18-8f3f-6394a5bb0557">
+        <name>ОтправкаСырьяОтПоставщика</name>
+        <description>Отправка сырья от поставщика (по массе)</description>
+        <code xsi:type="core:StringValue">
+          <value>000000095</value>
+        </code>
+      </content>
+      <content id="52a59302-38b3-4ddb-82c6-70124a9ba84a">
+        <name>ПоступлениеНаСортировку</name>
+        <description>Поступление на сортировку</description>
+        <code xsi:type="core:StringValue">
+          <value>000000049</value>
+        </code>
+      </content>
+      <content id="d8894df4-c88f-4e81-898e-5df3704a5c08">
+        <name>Сортировка</name>
+        <description>Сортировка</description>
+        <code xsi:type="core:StringValue">
+          <value>000000050</value>
+        </code>
+      </content>
+    </items>
+    <items id="dbb5ac33-1cb9-406f-b136-cf87076e832e">
+      <name>УпаковкаГП</name>
+      <description>Упаковка ГП</description>
+      <code xsi:type="core:StringValue">
+        <value>000000100</value>
+      </code>
+    </items>
+    <items id="44aa39d1-3729-49c5-b712-543b406706fd">
+      <name>УправлениеДополнительнымиСвойствами</name>
+      <description>Управление дополнительными свойствами</description>
+      <code xsi:type="core:StringValue">
+        <value>000000072</value>
+      </code>
+    </items>
+    <items id="35cf7d90-e143-404c-b4c0-755fa005237f">
+      <name>ФормированиеЦеховойПартии</name>
+      <description>Формирование партии</description>
+      <code xsi:type="core:StringValue">
+        <value>000000043</value>
+      </code>
+    </items>
+    <items id="469d055a-43cf-4aa0-954a-06f57d0fa48f">
+      <name>ФормированиеЦеховойПартииСписок</name>
+      <description>Формирование партии (список)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000076</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ca583dc2-1c6c-4762-ac2f-607e5a09d669">
+    <name>ТипСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип состояния (ключ настроек)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="11a8766e-9086-454a-8f9c-3aff33f5c43a">
+    <name>ДляСортировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для сортировки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+  </attributes>
+  <attributes uuid="49db5ee6-6204-4724-8b54-8ef397edb830">
+    <name>СписокПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список продукции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1bca2b84-791d-4196-8fc3-6f3d3fbf6694">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value> </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="05bfd879-e5bf-49fd-800b-3a947e517a66">
+    <name>ОтражатьВИсторииЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>История</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f3813bb5-bf1d-4e04-b420-2ab6228e761d">
+    <name>ОтражатьВИсторииЗаказаПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>История получатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="18f8dbe0-c30b-410c-88ec-e77146030a57">
+    <name>ОтражатьВОперативныхОстатках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опер. остатки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5f5f12ad-15b7-4bc4-8a6f-68298688abab">
+    <name>ОтражатьВОперативныхОстаткахПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опер. остатки получатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="741b18c6-2e31-40d4-b5ba-46f6ab9f603c">
+    <name>СкладОперативныхОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад опер. остатков</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя реквизизита из которого заполнять Склад в движениях оперативных остатков
+РабочийЦентр, Склад, Подразделение.
+Пусто = Склад</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2531dc15-f947-4cd2-bcae-85b73db37c8f">
+    <name>СкладОперативныхОстатковПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад опер. остатков получатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя реквизизита из которого заполнять Склад в движениях оперативных остатков
+РабочийЦентр, Склад, Подразделение.
+Пусто = Склад</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a34cf353-d6aa-43fe-9c19-5e8c2aea498a">
+    <name>ИмяРамки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя рамки</value>
+    </synonym>
+    <comment>Имя рамки полей Склад, Подразделение</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя выводимое в Левой рамке (Отправитель).</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="561711bb-f1b8-4971-85a9-77bdb05e68f3">
+    <name>ИмяРамкиПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя рамки получатель</value>
+    </synonym>
+    <comment>Имя рамки полей получателей Склад, Подразделение</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя выводимое в Правой рамке (Получатель).</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="61f5cd3b-ff87-4f20-99c5-c61fa3165b86">
+    <name>ИсточникВидимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник видимости</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="29d8ffe3-921e-4fe0-8e07-2e78148f31b0">
+    <name>НеПоказыватьСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не показывать</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0dad5fc1-f326-4892-a699-3f19c60f4634">
+    <name>НеПоказыватьСкладПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не показывать (получатель)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="951f9d3b-0c48-4f4a-a542-b127051e5e9d">
+    <name>ИмяПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя поля</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя выводимое в Левой рамке (Отправитель).</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="62cce630-7751-4d6e-b580-b582083226d9">
+    <name>ИмяПоляПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя поля получатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя выводимое в Левой рамке (Отправитель).</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="b9a68b41-b6c1-4576-982b-b6c1dfaa8110">
+    <name>БалансироватьСторонойИспользовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Балансировать стороной использовано</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0f7fed19-3e53-41b1-b812-0443c2a45f47">
+    <name>ВидимостьПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видимость по умолчанию</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="2a56860d-aef9-42c3-8270-b277db3ff75a">
+    <name>ДопускаетИзменениеПартии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допускает изменение партии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7d9e8849-2b1e-4e48-b2a5-99be1893a4d7">
+    <name>БалансироватьСПартией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Балансировать с партией</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="977b5812-e6dd-41ad-9796-cb797d809921">
+    <name>ОтражатьВОперативныхПланах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опер. планы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a3209d06-895b-4a6d-b7bd-1b727bae6a36">
+    <name>ОтражатьВОперативныхПланахПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опер. планы получатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="faceeafa-36a0-44be-970f-7b12a0eb1154">
+    <name>ОперативныеПланыКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во (план)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="9d2b6a6b-58e7-4fd8-9fe2-a66aa280d38f">
+    <name>ОперативныеПланыКоличествоПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во (план)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="aa3d1057-074e-42a2-8739-e3c7cfac98af">
+    <name>ОперативныеПланыМестоУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место учета (план)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1f6f82fb-24a3-4545-945f-13d29ecb854c">
+    <name>ОперативныеПланыМестоУчетаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место учета прод.(план)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="ac0a36cd-e2e5-4056-8651-5a1b7ac60453">
+    <producedTypes>
+      <objectType typeId="7adcb93e-a538-4858-9d0c-d35d0ccfc66f" valueTypeId="0df5670b-d5c3-4173-9aed-fc9ade7075e2"/>
+      <rowType typeId="5955746b-b289-4657-a39a-70d9ea727159" valueTypeId="20c54aef-fde8-456b-9f3e-e26ad3e4c7ca"/>
+    </producedTypes>
+    <name>НастройкиОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки операции</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9c6a139e-1fff-4d44-9fe8-63aac7551bed">
+      <name>Настройка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Настройка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3dc0bd14-ad92-44b9-a50b-5feeba00fab3">
+      <name>ТипНастройки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип настройки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6f9c63e8-deec-42c4-bf84-8d03fbd0b3fa">
+      <name>ЗначениеНастройки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение настройки</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="09e47933-aed2-4e77-8971-a4b41e8c947f">
+    <producedTypes>
+      <objectType typeId="a444abd8-b598-4966-8038-e5e57f75bded" valueTypeId="bc0cd3b4-0759-4c37-8d96-a1b4b3be6d08"/>
+      <rowType typeId="28889067-9cba-4840-92aa-ef09b9363a10" valueTypeId="f8510f93-c852-4f84-98eb-406200e9b79c"/>
+    </producedTypes>
+    <name>Видимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видимость</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="45b0b680-92c3-49f5-8d3e-fd5d7a7f4909">
+      <name>ИмяРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bf71ff25-ab50-4086-9cef-3194e10ad71c">
+      <name>ВидимостьРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Видимость реквизита</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8b3b8b7a-c5e3-48b4-9e16-eb89c3e30e12">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

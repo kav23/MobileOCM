@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52620fb4-fec8-482d-97bc-87f670b5c131">
+  <producedTypes>
+    <refType typeId="27b4a22f-40d2-4b95-a981-e5980ea644cd" valueTypeId="1929b699-725b-4f27-9a28-b706d45c51e5"/>
+    <listType typeId="43e9a076-893a-46ac-bb4d-8d0598f266a5" valueTypeId="2c90380a-7ebe-4a35-862f-822db115869a"/>
+    <managerType typeId="b533003d-911d-4d7c-94ae-b307b7aee9a0" valueTypeId="14ed5e71-9894-49e2-a251-5255b2ae7c34"/>
+  </producedTypes>
+  <name>УГМК_ВидыОперацийУпаковка</name>
+  <synonym>
+    <key>ru</key>
+    <value>(УГМК) Виды операций упаковка</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="98b719f4-0743-4941-81a4-8da5e9f9ebe5">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="99d10c62-ba45-4e9c-92e9-16219c366f69">
+    <name>Перевозка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевозка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

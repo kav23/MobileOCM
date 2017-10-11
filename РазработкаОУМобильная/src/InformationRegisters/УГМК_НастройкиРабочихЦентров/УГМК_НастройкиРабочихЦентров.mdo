@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="646b396b-a366-431f-b1db-e2206354656b">
+  <producedTypes>
+    <selectionType typeId="ef718241-5aa0-4d16-b9cd-f8bc6857f6e4" valueTypeId="dde45aa6-dad1-4e02-8eb8-be93f8ae9fc0"/>
+    <listType typeId="511c1e99-48ea-4f46-bbde-b298a2a7012f" valueTypeId="2aac3cf3-41df-4456-8394-67bfaa82f41d"/>
+    <managerType typeId="34215b92-39f7-4c1b-9c67-46d345c8adbc" valueTypeId="cf6d16b0-905e-4cc8-a3d3-c44e35de853c"/>
+    <recordSetType typeId="a655ac47-dc8c-4909-b92d-e2dec23669fd" valueTypeId="17442bfa-6309-49bd-9d2a-47f5527eb1ae"/>
+    <recordKeyType typeId="29ef7158-c4c1-4ca8-8b64-7998f55d52f7" valueTypeId="bfffca1e-c510-45fa-89f0-c29c5e1e95e2"/>
+    <recordType typeId="3dda5a07-2b7b-45a4-9891-d5359d6a8f87" valueTypeId="a543f12b-616d-47d2-bdbc-802f9b160ffe"/>
+    <recordManagerType typeId="d60e35f6-f6fb-4cbd-aa1b-e0db4ec6773a" valueTypeId="2ff7ed16-d813-4295-94b9-d1ceffb1b15b"/>
+  </producedTypes>
+  <name>УГМК_НастройкиРабочихЦентров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки рабочих центров (УГМК)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Значения, доступные для выбора на рабочих центрах</value>
+  </explanation>
+  <resources uuid="1c34f682-9079-43e6-8edc-cac88d766c82">
+    <name>Доступно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступно</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="867615c3-a727-4fbc-83e2-d84320cf5df1">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="26b85d6b-cfef-4588-a8a1-39129202fb70">
+    <name>ИзмененныйПриоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измененный приоритет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a5eb6a7a-2ed2-432f-8146-63f84a1f2f48">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>-1 общая настройка;
+ 0 Пользователь и Рабочий центр;
+10 Группа заменяемости;
+20 Подразделение.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0afc3be0-c3a5-43c6-9d16-833bd1626aeb">
+    <name>ЗначениеНастрокиХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение настроки хранилище</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b93e665c-0c0b-4e0d-87f7-1b9084dcaefa">
+    <name>ОбъектНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект настройки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ГруппыЗаменяемостиРабочихЦентров</types>
+      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.РабочиеМеста</types>
+      <types>CatalogRef.РабочиеЦентры</types>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="37b54aac-5930-4cfa-9589-b69805253fbf">
+    <name>ДополнениеИмени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b3b8921d-7728-4453-83e1-e739b057ee10">
+    <name>ЗначениеНастроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение настроки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Characteristic.СвойстваОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

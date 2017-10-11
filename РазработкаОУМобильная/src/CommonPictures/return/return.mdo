@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b58ee978-7f81-4e4b-a221-1ce9170f7a0d">
+  <name>return</name>
+  <synonym>
+    <key>ru</key>
+    <value>Return</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonPicture>

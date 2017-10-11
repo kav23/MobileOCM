@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ed35e90-f58a-49b5-a846-34bf06339828">
+  <producedTypes>
+    <refType typeId="2231f287-d5c7-49d9-b8ba-e612aaab7f77" valueTypeId="95d0603e-a0a1-423c-9bec-63aeb2230335"/>
+    <listType typeId="926c5a78-0548-4307-a8fb-8b4b0d2fe16d" valueTypeId="4a731c78-f3d3-4575-b310-0abbf8753081"/>
+    <managerType typeId="72f9c5ec-c976-4726-bf08-09da98c2fa47" valueTypeId="9a749bb2-378a-4925-8f94-65dcfcbbce0a"/>
+  </producedTypes>
+  <name>УГМК_ТипПартии</name>
+  <synonym>
+    <key>ru</key>
+    <value>УГМК тип партии</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a56fd336-e375-4a1c-9bba-91625ac731e8">
+    <name>УГМК_ПаспортПартии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт партии</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a24d5cc3-f345-493f-9c3f-69934349035c">
+    <name>УГМК_Плавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плавка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9796189b-242d-4945-9f60-d15a50aefe2a">
+    <name>УГМК_ПартияСырья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия сырья</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="391d18a4-8ee2-4289-b2b6-d8539b76fba1">
+    <name>УГМК_ПаспортПартииСТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт партии СТК</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

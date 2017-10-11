@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22dccc9c-474e-4014-9a10-8e71860dac17">
+  <name>ПодключаемоеОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемое оборудование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>Catalog.ДрайверыОборудования</content>
+  <content>CommonTemplate.Драйвер1СДрайверFPrint11</content>
+  <content>CommonTemplate.Драйвер1СПринтерЧеков</content>
+  <content>CommonTemplate.Драйвер1СУстройствоВвода</content>
+  <content>CommonForm.ФормаНастройкиУниверсальныйДрайвер</content>
+  <content>CommonModule.МенеджерОборудованияУниверсальныйДрайверКлиент</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервераПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияКлиент</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервера</content>
+  <content>Enum.ТипыПодключаемогоОборудования</content>
+  <content>CommonTemplate.ДрайверСканкодСканерШтрихкодаChipherlab</content>
+  <content>Constant.ПрефиксМобильногоУстройства</content>
+</mdclass:Subsystem>

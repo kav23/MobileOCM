@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a644544-bb6f-4099-b16a-f33f69514177">
+  <producedTypes>
+    <selectionType typeId="6942c381-3d10-4704-9214-5da23218acc6" valueTypeId="673b82e5-ab5c-4ee9-838c-bc8c3d84e61a"/>
+    <listType typeId="31319d50-46bf-4414-afa3-437534c77de5" valueTypeId="0c35bcf5-f347-430d-95ab-07ddd6b25b2b"/>
+    <managerType typeId="f1111e2f-c0d3-438f-ab08-9e1b31b5531b" valueTypeId="298d8def-77bf-4451-8a57-aab3628fb2b6"/>
+    <recordSetType typeId="062b95dc-6b9b-4ecc-97a2-f7455c0ade4c" valueTypeId="881c4efb-c10b-4712-a137-186f8417774d"/>
+    <recordKeyType typeId="9f55643f-62ca-47ce-b881-91863c039381" valueTypeId="3b1f6846-6c9a-40cf-be06-f5af789589ed"/>
+    <recordType typeId="b0a1934c-b352-4856-8460-79a42139a8b5" valueTypeId="32fd6292-d07c-4ef4-93c6-67acad0cc3ab"/>
+    <recordManagerType typeId="f2e7c6e3-c153-49df-84e0-754b64b949be" valueTypeId="d72f521c-56b7-4b6c-9026-351adb5855c2"/>
+  </producedTypes>
+  <name>ПринтерПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принтер по умолчанию</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8c077341-bcd6-4c5b-ba0d-536b1ae3dc0d">
+    <name>Принтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принтер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_УстройстваПечати</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5057e980-0cb4-4375-ad8d-cb9b4ee5e042">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

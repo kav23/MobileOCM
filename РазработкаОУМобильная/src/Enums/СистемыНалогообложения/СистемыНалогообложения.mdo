@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f18a3d6c-ce1f-4709-8d25-75ba9ea4281d">
+  <producedTypes>
+    <refType typeId="21718244-a549-4e6b-a5cc-b380cfa9ddae" valueTypeId="5b0e7510-c68f-4646-8915-fa895ed039ac"/>
+    <listType typeId="1bf9da83-4841-4e93-96ad-ec5bca68c2ef" valueTypeId="748e9937-71eb-4793-a4f7-df81f133535b"/>
+    <managerType typeId="36b493d0-ad94-45bf-a893-65ab7474d5a1" valueTypeId="1fd5debf-525e-45bc-a1f6-686e70694ee4"/>
+  </producedTypes>
+  <name>СистемыНалогообложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Системы налогообложения</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bc0ff02d-dda8-46d7-95e3-462e4e0b7b32">
+    <name>Общая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая (с НДС)</value>
+    </synonym>
+    <comment>Общая</comment>
+  </enumValues>
+  <enumValues uuid="5d6fe797-1319-4feb-b60c-8d8a0859f65b">
+    <name>Упрощенная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упрощенная (без НДС)</value>
+    </synonym>
+    <comment>(УСН)</comment>
+  </enumValues>
+</mdclass:Enum>

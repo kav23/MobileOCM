@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregates="http://g5.1c.ru/v8/dt/aggregates" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c78a9e6-1e11-4b60-91ac-e239573dfe26">
+  <producedTypes>
+    <selectionType typeId="71e71a2d-3ea5-4733-a319-c301ce964eec" valueTypeId="bb565e60-0ab4-4a28-b463-40a4d6586c80"/>
+    <listType typeId="bf417dca-7d32-487d-86ba-674073e5e31e" valueTypeId="26a7b8e9-2ced-47db-b85b-0745a8d6a540"/>
+    <managerType typeId="a2521c78-ae6e-4e88-9dad-d13d725db1e5" valueTypeId="3b5f1106-229e-4215-9744-8ac0edda790c"/>
+    <recordSetType typeId="d7ec64c3-4411-4fd4-b435-02d7b5c1f19a" valueTypeId="6c4de04c-507f-47ca-aa7d-c595df9bb80b"/>
+    <recordKeyType typeId="d745d118-0928-413a-b746-dcfdcff11b6d" valueTypeId="f5dff6ca-d6bf-4ee6-96ec-11e9e0073769"/>
+    <recordType typeId="fa899155-3920-413c-87b4-a70305caacbd" valueTypeId="ef157c19-c973-48bd-9ce5-05f8fce63ebf"/>
+  </producedTypes>
+  <name>УГМК_ИсторияЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>История заказа (УГМК)</value>
+  </synonym>
+  <comment></comment>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <aggregates xsi:type="aggregates:AccumulationRegisterAggregates">
+    <aggregates id="eb5471c2-c812-42ac-964f-ff5d18c9f659">
+      <use>Always</use>
+      <periodicity>Month</periodicity>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Продукция</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ХарактеристикаПродукции</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ДоговорКонтрагента</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Заказ</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ЗаказВыпуска</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Состояние</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Организация</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Подразделение</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ПаспортПартии</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ТочкаМаршрута</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Смена</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Номенклатура</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ХарактеристикаНоменклатуры</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.СерияНоменклатуры</dimensions>
+    </aggregates>
+    <aggregates id="37a40cf9-004d-45e5-8f90-12a2b2154f0a">
+      <use>Always</use>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Продукция</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ХарактеристикаПродукции</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ДоговорКонтрагента</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Заказ</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Состояние</dimensions>
+    </aggregates>
+    <aggregates id="af90f75c-ea2a-4e47-936f-093348fddb09">
+      <use>Always</use>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Продукция</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ХарактеристикаПродукции</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ДоговорКонтрагента</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Заказ</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ЗаказВыпуска</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Состояние</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Организация</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Подразделение</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ПаспортПартии</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ТочкаМаршрута</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Смена</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Номенклатура</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ХарактеристикаНоменклатуры</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.СерияНоменклатуры</dimensions>
+    </aggregates>
+    <aggregates id="65c7822f-e1cd-4fbf-b786-b21f6d3e199a">
+      <use>Always</use>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Продукция</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ХарактеристикаПродукции</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ДоговорКонтрагента</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Заказ</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Состояние</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Организация</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.Номенклатура</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.ХарактеристикаНоменклатуры</dimensions>
+      <dimensions>AccumulationRegister.УГМК_ИсторияЗаказа.Dimension.СерияНоменклатуры</dimensions>
+    </aggregates>
+  </aggregates>
+  <resources uuid="bc65dc24-b508-44b3-85e1-c5aa4cb6f4c5">
+    <name>КоличествоМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b8f82fe3-46b8-4099-946a-91bd7a957477">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="33ee403c-9e1b-411f-96dd-7c301f8b5e49">
+    <name>КоличествоМестПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест продукции</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7a699fc1-89d2-4c23-b24e-b7ee35e7b44b">
+    <name>КоличествоПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество продукции</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b4a58567-3465-4acd-bc02-683f948df65b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4435dc53-d75d-4fce-8dc1-763c4a7b7b04">
+    <name>СуммаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма НДС</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="12a4b8ed-ff0e-419f-90da-3ee11b3512f0">
+    <name>ДатаОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата операции</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ac4c6b6-0eb3-4667-85a0-2753eadc6f78">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6cfb064a-b653-4c3b-b580-dc422d4b5526">
+    <name>tb_НоменклатураID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура (ID)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c01ff2f7-f89e-43d8-9d95-3732962946a2">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СтавкиНДС</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="58efdd9d-11d9-4c66-adf9-de0e73ea32cc">
+    <name>ТипИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип источника</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4a7f9fa4-dfae-47a9-925a-392fa875606b">
+    <name>Маржа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маржа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a1cec3b5-f873-4e8e-82c6-0ac8a9d85f38">
+    <name>ОрганизацияЗаказаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация заказа покупателя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="a6112d80-f871-407a-be63-4576ecff9197">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="01530e74-87a2-421a-9c00-004ae4dc4685">
+    <name>ХарактеристикаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика продукции</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ccd3d65a-46ac-4146-b31c-326ac8f9884a">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cc69d3b1-8dd6-4611-bd64-23f738a7b84f">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4fac52a2-223d-4317-9e7f-e9a2e5919893">
+    <name>ЗаказВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ выпуска</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="072261c5-1ee6-49de-8753-094399f7bc26">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.УГМК_СостоянияЗаказа</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bfbe9301-1743-479f-a623-7d384f978abc">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="86e76c3b-978f-4abe-b6ff-f319ec71c528">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="55ef2a07-e363-49a7-9c07-f11ff7ac2df7">
+    <name>ПаспортПартии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт партии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      <types>BusinessProcessRef.УГМК_ПаспортПартииСТК</types>
+      <types>BusinessProcessRef.УГМК_ПартияСырья</types>
+      <types>BusinessProcessRef.УГМК_Плавка</types>
+      <types>BusinessProcessRef.УГМК_ПаспортПартии</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="032c35fa-a8d8-4abf-9566-29546a6e7c93">
+    <name>ТочкаМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка маршрута</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ТочкиМаршрута</types>
+      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.СотрудникиОрганизаций</types>
+      <types>CatalogRef.РабочиеЦентры</types>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cb9759bc-cde8-4067-bb56-6ec2a603149d">
+    <name>Смена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Смены</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3657f70c-7825-44c7-87b7-c4f87781cc9a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.СК_МаркиСплавов</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3273604e-2450-49c6-8908-fa07bd4b28e0">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="795339bc-bd64-46c1-a92b-9dc89f3a9586">
+    <name>СерияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия номенклатуры</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

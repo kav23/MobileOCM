@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cc274ca-f324-4a07-8ba7-f85e93ba3e24">
+  <name>УГМК_ОперативныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперативный учет (УГМК)</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
