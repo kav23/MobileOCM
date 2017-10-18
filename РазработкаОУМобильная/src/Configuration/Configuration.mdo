@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor></vendor>
-  <version>1.02.01</version>
+  <version>1.02.03</version>
   <updateCatalogAddress></updateCatalogAddress>
   <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
   <requiredMobileApplicationPermissions>PushNotification</requiredMobileApplicationPermissions>
